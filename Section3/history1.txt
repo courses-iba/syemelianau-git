@@ -1,0 +1,445 @@
+    1  exit
+    2  git clone https://github.com/EmelyanovSI/drugstore-web.git
+    3  git clone https://github.com/EmelyanovSI/drugstore-api.git
+    4  git clone https://github.com/EmelyanovSI/labs-python.git
+    5  git clone https://github.com/EmelyanovSI/drugstore-mobile-kotlin.git
+    6  git clone https://github.com/EmelyanovSI/android-iba.git
+    7  git clone https://github.com/EmelyanovSI/labs-cpp.git
+    8  git clone https://github.com/EmelyanovSI/drugstore-api-php.git
+    9  git clone https://github.com/EmelyanovSI/labs-php-xml.git
+   10  git clone https://github.com/EmelyanovSI/labs-os.git
+   11  git clone https://github.com/EmelyanovSI/networkslab3.git
+   12  git clone https://github.com/EmelyanovSI/labs-networks.git
+   13  git clone https://github.com/EmelyanovSI/hello-world.git
+   14  git clone https://github.com/XDragonSl/gsu-web.git
+   15  git clone https://github.com/XDragonSl/gsu-api.git
+   16  git clone https://github.com/XDragonSl/shop-example.git
+   17  git clone https://github.com/XDragonSl/shop-example-api.git
+   18  git clone https://github.com/AimTuxOfficial/AimTux.git
+   19  exit
+   20  git version
+   21  atom
+   22  notepad++
+   23  pwd
+   24  atom .bash_profile
+   25  notepad++
+   26  exit
+   27  atom
+   28  notepad++
+   29  pwd
+   30  notepad++ .bash_profile
+   31  exit
+   32  npp
+   33  exit
+   34  cat
+   35  cat ~/.gitconfig
+   36  git config --global --list
+   37  git config --global -e
+   38  exit
+   39  git config --global
+   40  git config --global -e
+   41  npp .bashrc
+   42  pwd
+   43  npp .gitconfig
+   44  exit
+   45  p4merge
+   46  exit
+   47  p4merge
+   48  git config --global -e
+   49  git config --global -e
+   50  git config --global merge.tool p4merge
+   51  git config --global -e
+   52  git config --global mergetool.p4merge.path "C:/Program Fies/Perforce/p4merge.exe"
+   53  git config --global mergetool.prompt false
+   54  git config --global -e
+   55  clear
+   56  git config --global diff.tool p4merge
+   57  git config --global difftool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+   58  git config --global difftool.prompt false
+   59  git config --global --list
+   60  git config --global -e
+   61  git --history
+   62  git diff
+   63  exit
+   64  git config --global -e
+   65  git config --global --list
+   66  exit
+   67  git config --global -e
+   68  git config --global --list
+   69  git config --global user.name "Sergey Emelyanov"
+   70  git config --global user.email "syemelianau@gomel.iba.by"
+   71  git config --global core.autocrlf "true"
+   72  git config --global --list
+   73  git config --global -у
+   74  git config --global -e
+   75  git config --global -e
+   76  git config --global --list
+   77  ssh-keygen
+   78  exit
+   79  exit
+   80  exit
+   81  git clone ssh://vpupkin@gml-jbpm.gomel.iba.by:29418/vpupkin-git
+   82  scp -p -P 29418 syemelianau@gml-jbpm.gomel.iba.by:hooks/commit-msg syemelianau-git/.git/hooks/
+   83  ls
+   84  cd C:\Users\ikon\workspace\Windows\GitHub
+   85  cd C:\Users\ikon\workspace\Windows\GitHub
+   86  cd C:\\Users\\ikon\\workspace\\Windows\\GitHub
+   87  exit
+   88  git history
+   89  history
+   90  exit
+   91  git config remote.origin.push +refs/heads/master:refs/for/master
+   92  cd /c/Users/ikon/workspace/Windows/GitHub/syemelianau-git
+   93  git config remote.origin.push +refs/heads/master:refs/for/master
+   94  git config --global -e
+   95  npp .gitconfig
+   96  exit
+   97  history
+   98  git help
+   99  git version
+  100  git help
+  101  git veraion --help
+  102  git version --help
+  103  git push --help
+  104  ../
+  105  cd ../
+  106  git clone https://github.com/EmelyanovSI/starter-web.git
+  107  history
+  108  exit
+  109  git config --global -e
+  110  git history
+  111  git checkout tasks
+  112  git checkout Tasks
+  113  git checkout master
+  114  cd ../
+  115  cd starter-web
+  116  ls
+  117  ls -al
+  118  git status
+  119  pwd
+  120  clear
+  121  git status
+  122  npp hipster.txt
+  123  ls
+  124  git status
+  125  git add hipster.txt
+  126  git status
+  127  git commit -m 'My first commit!'
+  128  git status
+  129  git pull origin master
+  130  git push origin master
+  131  history
+  132  git .config --system
+  133  git config --system -e
+  134  npp .gitconfig
+  135  git config --global -e
+  136  npp hipster.txt
+  137  git status
+  138  git commit -am 'Adding more ipsum text'
+  139  git ls-files
+  140  git ls
+  141  ls
+  142  git ls-files
+  143  npp newfile.txt
+  144  ls
+  145  git status
+  146  git ls-files
+  147  git add newfile.txt
+  148  git status
+  149  git ls-files
+  150  npp hipster.txt
+  151  git stauts
+  152  git status
+  153  git commit -m 'Adding new file'
+  154  git status
+  155  git add hipster.txt
+  156  git status
+  157  npp hipster.txt
+  158  git status
+  159  git add hipster.txt
+  160  git status
+  161  git commit -m 'More ipsum for hipsters'
+  162  git status
+  163  mkdir -p level1/level2/level3/level5
+  164  ls
+  165  pwd
+  166  cd level1
+  167  pwd
+  168  npp level1-file.txt
+  169  ls
+  170  npp level1-file.txt
+  171  cd level2
+  172  ls
+  173  npp level2-file.txt
+  174  ls
+  175  cd level3
+  176  npp level3-file.txt
+  177  ls
+  178  rm -f level5
+  179  rm -rf level5
+  180  cd ../../..
+  181  git status
+  182  git add .
+  183  git status
+  184  git commit -m 'Adding several files recursively'
+  185  pwd
+  186  ls
+  187  git status
+  188  cd level1
+  189  ls
+  190  cpp level-1file.txt
+  191  npp level1-file.txt
+  192  git status
+  193  git add level1-file.txt
+  194  git status
+  195  git restore --staged level1-file.txt
+  196  git restore --staged level1-file.txt
+  197  git status
+  198  git restore level1-file.txt
+  199  git status
+  200  npp level1-file.txt
+  201  history
+  202  exit
+  203  cd C:\Users\ikon\workspace\Windows\GitHub\starter-web
+  204  cd C:\\Users\\ikon\\workspace\\Windows\\GitHub\\starter-web
+  205  cd level1/level2/level3
+  206  pwd
+  207  ls
+  208  git status
+  209  exit
+  210  cd C:\\Users\ikon\\workspace\\Windows\\GitHub\\starter-web
+  211  cd C:\\Users\\ikon\\workspace\\Windows\\GitHub\\starter-web
+  212  git status
+  213  git history
+  214  history
+  215  ды
+  216  ls
+  217  ls-files
+  218  git ls-files
+  219  cd level1/level2/level3
+  220  ls
+  221  git status
+  222  git mv level3-file.txt level3.txt
+  223  ls
+  224  git status
+  225  git commit -m 'renaming level3 file'
+  226  git status
+  227  cd ..
+  228  ls
+  229  mv level2-file.txt level2.txt
+  230  git status
+  231  git add -A
+  232  git status
+  233  git commit -m 'Renaming level 2 file'
+  234  git status
+  235  git mv level2.txt 2.txt
+  236  git status
+  237  git mv 2.txt level2.txt
+  238  ls
+  239  git status
+  240  git mv level2.txt level3
+  241  ls
+  242  cs level3
+  243  cd level3
+  244  ls
+  245  git status
+  246  cd ..
+  247  git status
+  248  git commit -m 'Moving file from level 2 to level 3'
+  249  cd level3
+  250  ls
+  251  mv level2.txt ..
+  252  ls
+  253  cd ..
+  254  ls
+  255  git status
+  256  git add -A
+  257  git status
+  258  git commit -m 'Moving level 2 file back to level 2 directory'
+  259  git status
+  260  cd ..
+  261  ls
+  262  ls
+  263  git status
+  264  git add level1.txt
+  265  git status
+  266  git add -u
+  267  git status
+  268  git commit -m 'Renaming level 1 file'
+  269  git status
+  270  cd ..
+  271  pwd
+  272  git status
+  273  npp doomed.txt
+  274  ls
+  275  git status
+  276  git rm doomed.txt
+  277  rm doomed.txt
+  278  git status
+  279  git rm newfile.txt
+  280  ls
+  281  git status
+  282  git commit -m 'Deleting new file'
+  283  git status
+  284  clear
+  285  ls
+  286  git ls-files
+  287  git rm hipster.txt
+  288  ls
+  289  git status
+  290  git reset HEAD hipster.txt
+  291  git status
+  292  git checkout -- hipster.txt
+  293  ls
+  294  git status
+  295  rm hipster.txt
+  296  git status
+  297  git add -A
+  298  git status
+  299  git commit -m 'Deleted hipster.txt file'
+  300  git status
+  301  clear
+  302  ls
+  303  rm -rf level1
+  304  ls
+  305  git status
+  306  git add -A
+  307  git status
+  308  git commit -m 'Deleting level1 and all children'
+  309  ls
+  310  git status
+  311  git help log
+  312  git log
+  313  git log --abrev-commit
+  314  git log --abbrev-commit
+  315  git log --oneline --graph --decorate
+  316  git log 3cc4bfb...09faf22
+  317  git log --since"3 days ago"
+  318  git log --since="3 days ago"
+  319  clear
+  320  ls
+  321  git history
+  322  git log -- hipster.txt
+  323  git status
+  324  git history
+  325  git log --follow -- level1/level2/level2.txt
+  326  git show f0436f6de527975925c89ec19c86a79ec68dd17d
+  327  git show f0436f6de527975925c89ec19c86a79ec68dd17d
+  328  clear
+  329  ls
+  330  git status
+  331  git log --oneline --graph --decorate
+  332  git config --global -e
+  333  ls
+  334  git status
+  335  ls -al
+  336  npp .gitignore
+  337  ls -al
+  338  git status
+  339  git add .
+  340  git status
+  341  git commit -m 'Adding git ignore file to exclude unwanted files'
+  342  git status
+  343  ls
+  344  npp access.log
+  345  ды
+  346  ls
+  347  git status
+  348  npp .gitignore
+  349  git status
+  350  mkdir log
+  351  mv access.log log
+  352  ls
+  353  cd log
+  354  ls
+  355  ll
+  356  cp access.log access.2014-11-04
+  357  ls
+  358  ll
+  359  cd ..
+  360  git status
+  361  npp .gitignore
+  362  git status
+  363  git commit -am 'Excluding log file directory'
+  364  git status
+  365  ls
+  366  git status
+  367  clear
+  368  git pull origin master
+  369  git push origin master
+  370  git history
+  371  exit
+  372  gi history
+  373  git history
+  374  atom
+  375  git remote
+  376  git remote -v
+  377  git status
+  378  git pull origin master
+  379  git history
+  380  git checkout Tasks
+  381  git status
+  382  git ls-files
+  383  git checkout master
+  384  pkin@gml-jbpm.gomel.iba.by gerrit create-branch vpupkin-giexitt doc-gerrit-wf master
+  385  history
+  386  git checkout Tasks
+  387  exit
+  388  git checkout Tasks
+  389  git checkout master
+  390  ssh -p 29418 syemelianau@gml-jbpm.gomel.iba.by gerrit create-branch syemelianau-git Section3 master
+  391  git branch -a
+  392  git fetch
+  393  git checkout Section3
+  394  git branch -a
+  395  npp file.txt
+  396  git add file.txt
+  397  git status
+  398  git restore --staged file.txt
+  399  git status
+  400  git commit -am 'git - task1 - file.txt added'
+  401  git add file.txt
+  402  git commit -m 'git - task1 - file.txt added'
+  403  git status
+  404  git history
+  405  mkdir Section3
+  406  git mv file.txt Section3
+  407  ls
+  408  cd Section3
+  409  ls
+  410  git status
+  411  git commit -m 'git - task1 - file.txt moved to Section3 directory'
+  412  git status
+  413  git history
+  414  git checkout master
+  415  git pull origin master
+  416  cd ..
+  417  git pull origin master
+  418  git checkout Section3
+  419  git branch -a
+  420  git checkout Section3
+  421  git push origin HEAD:refs/for/Section3
+  422  history
+  423  exit
+  424  git clone https://github.com/EmelyanovSI/labs-python.git
+  425  exit
+  426  atom
+  427  git branch -a
+  428  git checkout Tasks
+  429  exit
+  430  фещь
+  431  atom
+  432  git status
+  433  git branch -a
+  434  git checkout Section3
+  435  git branch -a
+  436  git status
+  437  git checkout master
+  438  git status
+  439  git pull
+  440  git pull
+  441  git merge Section3 --no-ff
+  442  git history
+  443  cd Section3
+  444  ls
+  445  history >> history1.txt
