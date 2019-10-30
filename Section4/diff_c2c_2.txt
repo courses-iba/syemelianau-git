@@ -1,0 +1,136 @@
+diff --git a/Section4/Topic4/Task2.md b/Section4/Topic4/Task2.md
+deleted file mode 100644
+index 387a6c2..0000000
+--- a/Section4/Topic4/Task2.md
++++ /dev/null
+@@ -1,37 +0,0 @@
+-## Task 2 Simple comparisons.
+-
+-** You should perform operations using Command Line processor / Git Bash only! **
+-
+-#### Follow the next steps to achieve the task completion:
+-
+-Preparation Steps:
+-
+-1.  Create and go to branch *Section4* on basis of branch *master* on server and pull changes to local;
+-2.  Create a new directory *Section4*;
+-3.  Get this file (Topic4/Task2.md from branch *Tasks*) to branch *Section4* to directory *Section4*;
+-
+-Tasks:
+-
+-4.  Compare current branch to branch *master* and write difference down to new file *Section4/diff_b2b.txt*;
+-5.	Create a new file *test.txt* in directory *Section4* and put few lines there;
+-6.	Stage current changes
+-7.  Update file *Section4/test.txt* with few linew of new code
+-8.	Compare current branch Working Directory to Staging Area and write difference down to new file *Section4/diff_wd2sa.txt*;
+-9.	Stage and commit current changes
+-10. Update file *Section4/test.txt* with few linew of new code
+-11. Commit current changes
+-12. Compare current commit to the previous one and write difference down to new file *Section4/diff_c2c_1.txt*;
+-13. Compare current commit to the one before previous and write difference down to new file *Section4/diff_c2c_2.txt*;
+-14.	Commit this change to branch *Section4* and push commit to corresponding server branch for review;
+-
+-Final Steps - merge all to master branch( with task ):
+-
+-15.	Once reviewed by Tutor, merge all the changes to branch *master* (Check README.md file for instructions);
+-16.	Change to branch *master* if not yet on it;
+-17.	Compare local branch *master* to server branch *master* and write difference down to new file *Section4/diff_m2m.txt*;
+-18. In directory *Section4* run command *history >> history2.txt* and stage changes;
+-19.	Include these changes into previous commit (Check README.md file for instructions);
+-20.	Push branch *master* changes to server for review;
+-21. Once reviewed by Tutor, task is completed.
+-
+-#### Once done, you can follow up on next Topic/Task assignment.
+\ No newline at end of file
+diff --git a/Section4/diff_b2b.txt b/Section4/diff_b2b.txt
+deleted file mode 100644
+index c1a6d75..0000000
+--- a/Section4/diff_b2b.txt
++++ /dev/null
+@@ -1,44 +0,0 @@
+-diff --git a/Section4/Topic4/Task2.md b/Section4/Topic4/Task2.md
+-new file mode 100644
+-index 0000000..387a6c2
+---- /dev/null
+-+++ b/Section4/Topic4/Task2.md
+-@@ -0,0 +1,37 @@
+-+## Task 2 Simple comparisons.
+-+
+-+** You should perform operations using Command Line processor / Git Bash only! **
+-+
+-+#### Follow the next steps to achieve the task completion:
+-+
+-+Preparation Steps:
+-+
+-+1.  Create and go to branch *Section4* on basis of branch *master* on server and pull changes to local;
+-+2.  Create a new directory *Section4*;
+-+3.  Get this file (Topic4/Task2.md from branch *Tasks*) to branch *Section4* to directory *Section4*;
+-+
+-+Tasks:
+-+
+-+4.  Compare current branch to branch *master* and write difference down to new file *Section4/diff_b2b.txt*;
+-+5.	Create a new file *test.txt* in directory *Section4* and put few lines there;
+-+6.	Stage current changes
+-+7.  Update file *Section4/test.txt* with few linew of new code
+-+8.	Compare current branch Working Directory to Staging Area and write difference down to new file *Section4/diff_wd2sa.txt*;
+-+9.	Stage and commit current changes
+-+10. Update file *Section4/test.txt* with few linew of new code
+-+11. Commit current changes
+-+12. Compare current commit to the previous one and write difference down to new file *Section4/diff_c2c_1.txt*;
+-+13. Compare current commit to the one before previous and write difference down to new file *Section4/diff_c2c_2.txt*;
+-+14.	Commit this change to branch *Section4* and push commit to corresponding server branch for review;
+-+
+-+Final Steps - merge all to master branch( with task ):
+-+
+-+15.	Once reviewed by Tutor, merge all the changes to branch *master* (Check README.md file for instructions);
+-+16.	Change to branch *master* if not yet on it;
+-+17.	Compare local branch *master* to server branch *master* and write difference down to new file *Section4/diff_m2m.txt*;
+-+18. In directory *Section4* run command *history >> history2.txt* and stage changes;
+-+19.	Include these changes into previous commit (Check README.md file for instructions);
+-+20.	Push branch *master* changes to server for review;
+-+21. Once reviewed by Tutor, task is completed.
+-+
+-+#### Once done, you can follow up on next Topic/Task assignment.
+-\ No newline at end of file
+diff --git a/Section4/diff_wd2sa.txt b/Section4/diff_wd2sa.txt
+deleted file mode 100644
+index 682c869..0000000
+--- a/Section4/diff_wd2sa.txt
++++ /dev/null
+@@ -1,13 +0,0 @@
+-diff --git a/Section4/test.txt b/Section4/test.txt
+-index 88d4d53..2362d63 100644
+---- a/Section4/test.txt
+-+++ b/Section4/test.txt
+-@@ -3,3 +3,8 @@ Green juice helvetica bespoke, lumbersexual food truck vinyl small batch flexita
+- Mustache chillwave unicorn schlitz, tumblr poke master cleanse literally listicle waistcoat hammock heirloom seitan.
+- Hoodie polaroid YOLO, keytar prism raw denim small batch sartorial cloud bread retro.
+- Artisan banjo vaporware bespoke yuccie messenger bag four dollar toast gastropub.
+-+
+-+Banjo ramps church-key, unicorn iPhone irony jean shorts.
+-+Chambray locavore meditation 8-bit godard affogato.
+-+Sriracha bicycle rights yuccie gastropub pour-over direct trade kale chips.
+-+Raw denim direct trade normcore green juice meggings organic shoreditch artisan bespoke gluten-free vinyl microdosing.
+diff --git a/Section4/test.txt b/Section4/test.txt
+deleted file mode 100644
+index 693ba69..0000000
+--- a/Section4/test.txt
++++ /dev/null
+@@ -1,17 +0,0 @@
+-Lorem ipsum dolor amet 3 wolf moon meh taxidermy, next level chillwave flannel la croix wolf distillery.
+-Green juice helvetica bespoke, lumbersexual food truck vinyl small batch flexitarian organic palo santo kale chips biodiesel banjo PBR&B chillwave.
+-Mustache chillwave unicorn schlitz, tumblr poke master cleanse literally listicle waistcoat hammock heirloom seitan.
+-Hoodie polaroid YOLO, keytar prism raw denim small batch sartorial cloud bread retro.
+-Artisan banjo vaporware bespoke yuccie messenger bag four dollar toast gastropub.
+-
+-Banjo ramps church-key, unicorn iPhone irony jean shorts.
+-Chambray locavore meditation 8-bit godard affogato.
+-Sriracha bicycle rights yuccie gastropub pour-over direct trade kale chips.
+-Raw denim direct trade normcore green juice meggings organic shoreditch artisan bespoke gluten-free vinyl microdosing.
+-
+-Iceland jean shorts skateboard, coloring book gochujang irony flannel lomo prism brooklyn meditation keffiyeh chicharrones.
+-Gastropub XOXO gochujang vape health goth.
+-Etsy try-hard meggings franzen salvia bespoke brooklyn banh mi.
+-Keffiyeh chillwave skateboard semiotics cardigan fingerstache.
+-Vegan stumptown succulents coloring book bushwick butcher marfa hammock.
+-Small batch vegan pork belly seitan trust fund tattooed, dreamcatcher +1 90's.

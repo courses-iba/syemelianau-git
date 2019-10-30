@@ -1,0 +1,15 @@
+diff --git a/Section4/test.txt b/Section4/test.txt
+index 693ba69..2362d63 100644
+--- a/Section4/test.txt
++++ b/Section4/test.txt
+@@ -8,10 +8,3 @@ Banjo ramps church-key, unicorn iPhone irony jean shorts.
+ Chambray locavore meditation 8-bit godard affogato.
+ Sriracha bicycle rights yuccie gastropub pour-over direct trade kale chips.
+ Raw denim direct trade normcore green juice meggings organic shoreditch artisan bespoke gluten-free vinyl microdosing.
+-
+-Iceland jean shorts skateboard, coloring book gochujang irony flannel lomo prism brooklyn meditation keffiyeh chicharrones.
+-Gastropub XOXO gochujang vape health goth.
+-Etsy try-hard meggings franzen salvia bespoke brooklyn banh mi.
+-Keffiyeh chillwave skateboard semiotics cardigan fingerstache.
+-Vegan stumptown succulents coloring book bushwick butcher marfa hammock.
+-Small batch vegan pork belly seitan trust fund tattooed, dreamcatcher +1 90's.

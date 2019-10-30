@@ -1,0 +1,500 @@
+   18  git status
+   19  npp doomed.txt
+   20  ls
+   21  git status
+   22  git rm doomed.txt
+   23  rm doomed.txt
+   24  git status
+   25  git rm newfile.txt
+   26  ls
+   27  git status
+   28  git commit -m 'Deleting new file'
+   29  git status
+   30  clear
+   31  ls
+   32  git ls-files
+   33  git rm hipster.txt
+   34  ls
+   35  git status
+   36  git reset HEAD hipster.txt
+   37  git status
+   38  git checkout -- hipster.txt
+   39  ls
+   40  git status
+   41  rm hipster.txt
+   42  git status
+   43  git add -A
+   44  git status
+   45  git commit -m 'Deleted hipster.txt file'
+   46  git status
+   47  clear
+   48  ls
+   49  rm -rf level1
+   50  ls
+   51  git status
+   52  git add -A
+   53  git status
+   54  git commit -m 'Deleting level1 and all children'
+   55  ls
+   56  git status
+   57  git help log
+   58  git log
+   59  git log --abrev-commit
+   60  git log --abbrev-commit
+   61  git log --oneline --graph --decorate
+   62  git log 3cc4bfb...09faf22
+   63  git log --since"3 days ago"
+   64  git log --since="3 days ago"
+   65  clear
+   66  ls
+   67  git history
+   68  git log -- hipster.txt
+   69  git status
+   70  git history
+   71  git log --follow -- level1/level2/level2.txt
+   72  git show f0436f6de527975925c89ec19c86a79ec68dd17d
+   73  git show f0436f6de527975925c89ec19c86a79ec68dd17d
+   74  clear
+   75  ls
+   76  git status
+   77  git log --oneline --graph --decorate
+   78  git config --global -e
+   79  ls
+   80  git status
+   81  ls -al
+   82  npp .gitignore
+   83  ls -al
+   84  git status
+   85  git add .
+   86  git status
+   87  git commit -m 'Adding git ignore file to exclude unwanted files'
+   88  git status
+   89  ls
+   90  npp access.log
+   91  ды
+   92  ls
+   93  git status
+   94  npp .gitignore
+   95  git status
+   96  mkdir log
+   97  mv access.log log
+   98  ls
+   99  cd log
+  100  ls
+  101  ll
+  102  cp access.log access.2014-11-04
+  103  ls
+  104  ll
+  105  cd ..
+  106  git status
+  107  npp .gitignore
+  108  git status
+  109  git commit -am 'Excluding log file directory'
+  110  git status
+  111  ls
+  112  git status
+  113  clear
+  114  git pull origin master
+  115  git push origin master
+  116  git history
+  117  exit
+  118  gi history
+  119  git history
+  120  atom
+  121  git remote
+  122  git remote -v
+  123  git status
+  124  git pull origin master
+  125  git history
+  126  git checkout Tasks
+  127  git status
+  128  git ls-files
+  129  git checkout master
+  130  pkin@gml-jbpm.gomel.iba.by gerrit create-branch vpupkin-giexitt doc-gerrit-wf master
+  131  history
+  132  git checkout Tasks
+  133  exit
+  134  git checkout Tasks
+  135  git checkout master
+  136  ssh -p 29418 syemelianau@gml-jbpm.gomel.iba.by gerrit create-branch syemelianau-git Section3 master
+  137  git branch -a
+  138  git fetch
+  139  git checkout Section3
+  140  git branch -a
+  141  npp file.txt
+  142  git add file.txt
+  143  git status
+  144  git restore --staged file.txt
+  145  git status
+  146  git commit -am 'git - task1 - file.txt added'
+  147  git add file.txt
+  148  git commit -m 'git - task1 - file.txt added'
+  149  git status
+  150  git history
+  151  mkdir Section3
+  152  git mv file.txt Section3
+  153  ls
+  154  cd Section3
+  155  ls
+  156  git status
+  157  git commit -m 'git - task1 - file.txt moved to Section3 directory'
+  158  git status
+  159  git history
+  160  git checkout master
+  161  git pull origin master
+  162  cd ..
+  163  git pull origin master
+  164  git checkout Section3
+  165  git branch -a
+  166  git checkout Section3
+  167  git push origin HEAD:refs/for/Section3
+  168  history
+  169  exit
+  170  git clone https://github.com/EmelyanovSI/labs-python.git
+  171  exit
+  172  atom
+  173  git branch -a
+  174  git checkout Tasks
+  175  exit
+  176  фещь
+  177  atom
+  178  git status
+  179  git branch -a
+  180  git checkout Section3
+  181  git branch -a
+  182  git status
+  183  git checkout master
+  184  git status
+  185  git pull
+  186  git pull
+  187  git merge Section3 --no-ff
+  188  git history
+  189  cd Section3
+  190  ls
+  191  history >> history1.txt
+  192  ls
+  193  npp history1.txt
+  194  git status
+  195  git add .
+  196  git status
+  197  git checkout Tasks Topic3/Task1.md
+  198  git checkout Tasks -- Topic3/Task1.md
+  199  cd ..
+  200  git checkout Tasks Topic3/Task1.md
+  201  git status
+  202  ls
+  203  git mv Topic3 Section3
+  204  git status
+  205  git commit --amend
+  206  git status
+  207  git history
+  208  git push origin master
+  209  git status
+  210  git history
+  211  git branch -a
+  212  exit
+  213  ll
+  214  exit
+  215  git history
+  216  git status
+  217  ls
+  218  npp README.md
+  219  git status
+  220  git add README.md
+  221  git status
+  222  git commit -m 'Adding README file'
+  223  git status
+  224  git push origin master
+  225  npp README.md
+  226  git commit -am 'Adding new section: Deployment'
+  227  git status
+  228  git push
+  229  clear
+  230  npp README.md
+  231  git status
+  232  git commit -am 'Adding description'
+  233  npp README.md
+  234  git status
+  235  npp README.md
+  236  git status
+  237  git add README.md
+  238  git status
+  239  npp README.md
+  240  git status
+  241  git history
+  242  pwd
+  243  git status
+  244  git diff
+  245  git difftool
+  246  npp README.md
+  247  git status
+  248  git diff HEAD
+  249  git difftool HEAD
+  250  git diff --staged HEAD
+  251  git difftool --staged HEAD
+  252  clear
+  253  ls
+  254  npp simple.html
+  255  git status
+  256  git diff
+  257  git diff -- README.md
+  258  git difftool -- README.md
+  259  clear
+  260  git log --oneline
+  261  git diff 511a3a2 HEAD
+  262  git diff HEAD HEAD^
+  263  git difftool HEAD HEAD^
+  264  git log --oneline
+  265  git diff 6c65bb2 f0436f6
+  266  git difftool 6c65bb2 f0436f6
+  267  clear
+  268  git diff master origin/master
+  269  git difftool master origin/master
+  270  clear
+  271  git add .
+  272  git status
+  273  git status
+  274  npp README.md
+  275  git status
+  276  git add .
+  277  git status
+  278  git commit -m 'Updating repo with changes from compare section'
+  279  git status
+  280  git pull
+  281  git push origin master
+  282  history
+  283  exit
+  284  exit
+  285  atom
+  286  git status
+  287  git history
+  288  git pull
+  289  git branch -a
+  290  git checkout Tasks
+  291  git checkout master
+  292  git status
+  293  ssh -p 29418 syemelianau@gml-jbpm.gomel.iba.by gerrit create-branch syemelianau-git Section4 master
+  294  git fetch
+  295  git branch -a
+  296  git checkout Section4
+  297  git branch -a
+  298  git status
+  299  ls
+  300  git ls-files
+  301  mkdir Section4
+  302  ls
+  303  git checkout Tasks Topic4/Task2.md
+  304  git status
+  305  git mv Topic4 Section4
+  306  git status
+  307  git difftool master
+  308  git diff master >> Section4/diff_b2b.txt
+  309  git status
+  310  cd Section4
+  311  npp test.txt
+  312  git status
+  313  git add .
+  314  cd ..
+  315  git status
+  316  cd Section4
+  317  npp test.txt
+  318  git status
+  319  git difftool
+  320  git diff >> diff_wd2sa.txt
+  321  git status
+  322  cd ..
+  323  git add .
+  324  git status
+  325  git commit -m 'git - task2 - added 2 files with writed difference and 1 file with a few lines there'
+  326  git status
+  327  git history
+  328  cd Section4
+  329  npp test.txt
+  330  cd ..
+  331  git status
+  332  git commit -am 'git - task2 - test.txt updated'
+  333  git status
+  334  git difftool HEAD HEAD^
+  335  cd Section4
+  336  git diff HEAD HEAD^ >> diff_c2c_1.txt
+  337  git status
+  338  git difftool HEAD HEAD^^
+  339  git diff HEAD HEAD^^ >> diff_c2c_2.txt
+  340  git status
+  341  cd ..
+  342  git status
+  343  git add .
+  344  git status
+  345  git commit -m 'git - task2 - added 2 other files with writed difference'
+  346  git status
+  347  git history
+  348  git checkout master
+  349  git status
+  350  git pull origin master
+  351  git status
+  352  git history
+  353  git checkout Section4
+  354  git status
+  355  git push origin HEAD:refs/for/Section4
+  356  git status
+  357  exit
+  358  git status
+  359  git history
+  360  clear
+  361  git branch -a
+  362  git branch mynewbranch
+  363  git branch -a
+  364  git checkout mynewbranch
+  365  git branch -a
+  366  git log --oneline --decorate
+  367  git checkout master
+  368  git branch -m mynewbranch newbranch
+  369  git branch -a
+  370  git branch -d newbranch
+  371  git branch -a
+  372  clear
+  373  pwd
+  374  git status
+  375  git branch
+  376  git branch -a
+  377  git checkout -b title-change
+  378  git status
+  379  npp simple.html
+  380  git status
+  381  git commit -am 'Changing title of HTML file'
+  382  git history
+  383  git checkout master
+  384  git diff master title-change
+  385  git difftool master title-change
+  386  git merge title-change
+  387  git history
+  388  git branch
+  389  git branch -d title-change
+  390  git branch
+  391  git history
+  392  git checkout -b add-copyright
+  393  git branch
+  394  npp simple.html
+  395  git status
+  396  git commit -am 'Adding copyright notice'
+  397  npp README.md
+  398  git commit -am 'Adding copyright notice to Readme'
+  399  git status
+  400  git history
+  401  git checkout master
+  402  git merge add-copyright --no-ff
+  403  git status
+  404  git history
+  405  git branch -d add-copyright
+  406  git status
+  407  git branch -a
+  408  git history
+  409  pwd
+  410  git status
+  411  git branch
+  412  git checkout -b simple-changes
+  413  git branch -a
+  414  ll
+  415  npp humans.txt
+  416  git status
+  417  git commit -am 'Adding team member to humans.txt'
+  418  git status
+  419  git checkout master
+  420  npp README.md
+  421  git status
+  422  git commit -am 'Adding instructions on how to contribute'
+  423  git history
+  424  git branch
+  425  git merge simple-changes -m 'Merging changes from simple-changes branch'
+  426  git history
+  427  git branch
+  428  git branch -d simple-changes
+  429  git branch
+  430  git history
+  431  npp humans.txt
+  432  git history
+  433  pwd
+  434  git status
+  435  git branch -a
+  436  git checkout -b realwork
+  437  git branch -a
+  438  npp simple.html
+  439  git status
+  440  git commit -am 'Making changes to simple.html'
+  441  git status
+  442  git history
+  443  git checkout master
+  444  npp simple.html
+  445  git status
+  446  git add .
+  447  git status
+  448  git commit -m 'Adding conflicting changes (on purpose) for Git example. I hope this work!'
+  449  git history
+  450  git branch
+  451  git diff master realwork
+  452  git difftool master realwork
+  453  git merge realwork
+  454  ls
+  455  npp simple.html
+  456  git mergetool
+  457  git mergetool
+  458  p4merge
+  459  git config --global -e
+  460  git mergetool
+  461  git config --global -e
+  462  git mergetool
+  463  git commit -m 'Done resolving merge conflicts'
+  464  git status
+  465  npp .gitignore
+  466  git status
+  467  git add .gitignore
+  468  git status
+  469  git commit -m 'uploading ignore file to exclude merge temp files'
+  470  git status
+  471  git history
+  472  git branch
+  473  git branch -d realwork
+  474  git branch
+  475  git history
+  476  git status
+  477  git config --global -e
+  478  git mergetool
+  479  mergetool
+  480  git config --global -e
+  481  git status
+  482  git status
+  483  pwd
+  484  git status
+  485  git branch -a
+  486  git pull origin master
+  487  git push origin master
+  488  git history
+  489  exit
+  490  atom
+  491  atom
+  492  git branch -a
+  493  git checkout Tasks
+  494  git branch -a
+  495  git checkout Section4
+  496  git branch -a
+  497  exit
+  498  git config --global -e
+  499  exit
+  500  atom
+  501  git checkout master
+  502  git pull
+  503  git pull
+  504  git merge Section4 --no-ff
+  505  git history
+  506  git history
+  507  cd Section4
+  508  git difftool master origin/master
+  509  cd ..
+  510  git difftool master origin/master
+  511  git diff master origin/master
+  512  git status
+  513  git ls-files
+  514  cd Section4
+  515  git diff master origin/master >> diff_m2m.txt
+  516  git status
+  517  history >> history2.txt

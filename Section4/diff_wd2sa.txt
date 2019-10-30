@@ -1,0 +1,13 @@
+diff --git a/Section4/test.txt b/Section4/test.txt
+index 88d4d53..2362d63 100644
+--- a/Section4/test.txt
++++ b/Section4/test.txt
+@@ -3,3 +3,8 @@ Green juice helvetica bespoke, lumbersexual food truck vinyl small batch flexita
+ Mustache chillwave unicorn schlitz, tumblr poke master cleanse literally listicle waistcoat hammock heirloom seitan.
+ Hoodie polaroid YOLO, keytar prism raw denim small batch sartorial cloud bread retro.
+ Artisan banjo vaporware bespoke yuccie messenger bag four dollar toast gastropub.
++
++Banjo ramps church-key, unicorn iPhone irony jean shorts.
++Chambray locavore meditation 8-bit godard affogato.
++Sriracha bicycle rights yuccie gastropub pour-over direct trade kale chips.
++Raw denim direct trade normcore green juice meggings organic shoreditch artisan bespoke gluten-free vinyl microdosing.
