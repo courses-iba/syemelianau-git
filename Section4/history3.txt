@@ -1,0 +1,500 @@
+   20  git config --global -e
+   21  git mergetool
+   22  mergetool
+   23  git config --global -e
+   24  git status
+   25  git status
+   26  pwd
+   27  git status
+   28  git branch -a
+   29  git pull origin master
+   30  git push origin master
+   31  git history
+   32  exit
+   33  atom
+   34  atom
+   35  git branch -a
+   36  git checkout Tasks
+   37  git branch -a
+   38  git checkout Section4
+   39  git branch -a
+   40  exit
+   41  git config --global -e
+   42  exit
+   43  atom
+   44  git checkout master
+   45  git pull
+   46  git pull
+   47  git merge Section4 --no-ff
+   48  git history
+   49  git history
+   50  cd Section4
+   51  git difftool master origin/master
+   52  cd ..
+   53  git difftool master origin/master
+   54  git diff master origin/master
+   55  git status
+   56  git ls-files
+   57  cd Section4
+   58  git diff master origin/master >> diff_m2m.txt
+   59  git status
+   60  history >> history2.txt
+   61  git status
+   62  npp diff_m2m.txt
+   63  git add .
+   64  git status
+   65  
+   66  git commit --amend
+   67  git status
+   68  git history
+   69  cd ..
+   70  git status
+   71  git ls-files
+   72  git push origin master
+   73  git history
+   74  git difftool master origin/master
+   75  git difftool master origin/master
+   76  git config --global -e
+   77  git difftool master origin/master
+   78  git config --global -e
+   79  git difftool master origin/master
+   80  git config --global -e
+   81  git difftool master origin/master
+   82  git config --global -e
+   83  git difftool master origin/master
+   84  git config --global -e
+   85  git difftool master origin/master
+   86  p4merge -h
+   87  exit
+   88  atom
+   89  git difftool master origin/master
+   90  git difftool HEAD
+   91  git difftool HEAD^
+   92  git config --global -e
+   93  atom
+   94  git branch -a
+   95  git checkout Tasks
+   96  git status
+   97  history
+   98  git branch -a
+   99  git checkout Section4
+  100  git status
+  101  git history
+  102  git checkout Tasks Topic4/Task3.md
+  103  git status
+  104  git mv Topic4 Section4
+  105  git status
+  106  git mv Topic4/Task3.md Section4/Topic4
+  107  git status
+  108  git ls-files
+  109  rm -r Topic4
+  110  git status
+  111  cd Section4
+  112  git diff --staged >> feature.patch
+  113  git status
+  114  npp feature.patch
+  115  rm Topic4/Task3.md
+  116  git status
+  117  git apply feature.patch
+  118  git status
+  119  git add .
+  120  git status
+  121  cd ..
+  122  git status
+  123  git commit -m 'git - task3 - patch changes applied'
+  124  git status
+  125  git history
+  126  git push origin HEAD:refs/for/Section4
+  127  git ls-files
+  128  exit
+  129  git branch -a
+  130  git checkout Tasks
+  131  exit
+  132  git status
+  133  git checkout master
+  134  git status
+  135  git pull
+  136  git status
+  137  git status
+  138  git status
+  139  git pull
+  140  git status
+  141  git status
+  142  git pull
+  143  git status
+  144  git merge Section4 --no-ff
+  145  git status
+  146  git history
+  147  cd Section4
+  148  git ls-files
+  149  history >> history3.txt
+  150  git ls-files
+  151  git status
+  152  git add .
+  153  git status
+  154  git commit --amend
+  155  git status
+  156  ls-files
+  157  git ls-files
+  158  git history
+  159  cd ..
+  160  git status
+  161  git push origin master
+  162  git status
+  163  git history
+  164  atom
+  165  exit
+  166  git difftool
+  167  git difftool HEAD HEAD^
+  168  git config --global -e
+  169  git difftool HEAD HEAD^
+  170  git mergetool HEAD HEAD^
+  171  exit
+  172  git difftool HEAD HEAD^
+  173  git difftool HEAD HEAD^^^
+  174  git config --global -e
+  175  exit
+  176  git difftool HEAD HEAD^
+  177  git mergetool HEAD HEAD^
+  178  git config --global -e
+  179  git difftool HEAD HEAD^
+  180  git difftool master origin/master
+  181  git merge
+  182  git mergetool
+  183  git status
+  184  git history
+  185  history
+  186  atom
+  187  git branch -a
+  188  git checkout Tasks
+  189  git branch -a
+  190  history >> h.txt
+  191  git status
+  192  rm h.txt
+  193  git status
+  194  exit
+  195  git history
+  196  git status
+  197  git branch -a
+  198  pwd
+  199  ls
+  200  git status
+  201  git checkout -b myfeature
+  202  npp humans.txt
+  203  git status
+  204  git commit -am 'Saying thanks to all my students'
+  205  git status
+  206  git history
+  207  git checkout master
+  208  npp README.md
+  209  git status
+  210  git commit -am 'Adding oneliner to README for rebase example'
+  211  git history
+  212  git checkout myfeature
+  213  git rebase master
+  214  git history
+  215  npp README.md
+  216  git status
+  217  git commit -am 'Adding another change after rebase'
+  218  git status
+  219  git history
+  220  git checkout master
+  221  npp README.md
+  222  git status
+  223  git diff master myfeature
+  224  git merge myfeature
+  225  git history
+  226  git branch -d myfaeture
+  227  git branch -d myfeature
+  228  git branch -a
+  229  exit
+  230  git branch -a
+  231  git checkout Section4
+  232  git history
+  233  git ls-files
+  234  git status
+  235  atom
+  236  git checkout master
+  237  exit
+  238  atom
+  239  exit
+  240  git config --local -e
+  241  git config --system -e
+  242  git config --global -e
+  243  git config --system -e
+  244  git config --global -e
+  245  git config --system -e
+  246  git config --global -e
+  247  git config --global -e
+  248  git config --system -e
+  249  exit
+  250  git config --global -e
+  251  git config --system -e
+  252  exit
+  253  exit
+  254  exit
+  255  exit
+  256  git config --system -e
+  257  git config --global -e
+  258  exit
+  259  git config --global -e
+  260  git config --system -e
+  261  git config --global -e
+  262  git config --system -e
+  263  git config --global -e
+  264  git config --global -e
+  265  git config --global -eexit
+  266  exit
+  267  gsw
+  268  gsw --c
+  269  gsw --s -h
+  270  gsw --c
+  271  gsw --s -i
+  272  gsw --c
+  273  exit
+  274  git config --global -e
+  275  git config --system -e
+  276  gsw --c
+  277  exit
+  278  history
+  279  exit
+  280  atom
+  281  git status
+  282  git branch -a
+  283  git history
+  284  git config --system -e
+  285  git status; git branch -a
+  286  git allhist
+  287  git config --system -e
+  288  git allhist
+  289  git config --system -e
+  290  git allhist
+  291  git config --system -e
+  292  exit
+  293  учше
+  294  exit
+  295  atom
+  296  npp Section4/history3.txt
+  297  history
+  298  exit
+  299  history
+  300  exit
+  301  git history
+  302  atom
+  303  git difftool de9fdfa
+  304  git checkout Section4
+  305  git difftool de9fdfa
+  306  git history
+  307  git pull
+  308  git history
+  309  git fetch
+  310  git reset --hard de9fdfa
+  311  git history
+  312  git history
+  313  git history --all
+  314  git checkout master
+  315  git history
+  316  git status
+  317  git checkout Section4
+  318  git status
+  319  git branch -a
+  320  git checkout Tasks Topic4/Task3.md
+  321  git status
+  322  git mv Topic4/Task3.md Section4/Topic4
+  323  git status
+  324  git ls-files
+  325  ls
+  326  ls -al
+  327  git rm -r Topic4
+  328  ls -al
+  329  git rm Topic4
+  330  ls -al
+  331  rm -r Topic4
+  332  ls -al
+  333  cd Section4
+  334  git status
+  335  git diff --staged >> feature.patch
+  336  git status
+  337  git rm Topic4/Task3.md
+  338  git status
+  339  git rm -f Topic4/Task3.md
+  340  git status
+  341  git apply feature.patch
+  342  git status
+  343  git add .
+  344  git status
+  345  git commit -m 'git - task3 - patch changes applied'
+  346  git history
+  347  git push --force origin HEAD:refs/for/Section4
+  348  git history
+  349  cd ..
+  350  git status
+  351  git ls-files
+  352  git history
+  353  git branch -a
+  354  exit
+  355  cd git branchtests
+  356  exit
+  357  git init
+  358  gsw --h
+  359  gsw --c
+  360  gsw --s -h
+  361  gsw --c
+  362  gsw --h
+  363  git config global -e
+  364  git config --global -e
+  365  git status
+  366  git add
+  367  git
+  368  git branch -a
+  369  git branch
+  370  git history
+  371  exit
+  372  git checkout -b feature
+  373  git branch -a
+  374  git status
+  375  git history
+  376  git checkout master
+  377  exit
+  378  git status
+  379  git branch -a
+  380  git history
+  381  git checkout master
+  382  history
+  383  git
+  384  npp git1.txt
+  385  history
+  386  clear
+  387  git history
+  388  git status
+  389  git branch -a
+  390  git add
+  391  git add .
+  392  git status
+  393  git commit -m 'git1'
+  394  git status
+  395  git history
+  396  git checkout master
+  397  git checkout newmaster
+  398  gsw --s -i
+  399  gsw --c
+  400  учше
+  401  exit
+  402  git history
+  403  git history
+  404  exit
+  405  atom
+  406  git checkout master
+  407  git fetch
+  408  git pull
+  409  git status
+  410  git branch -a
+  411  git merge Section4 --no-ff
+  412  git status
+  413  git history
+  414  git history
+  415  history
+  416  git history
+  417  git reflog
+  418  cd Section4
+  419  history >> history3.txt
+  420  git add .
+  421  git history
+  422  git status
+  423  history > history3.txt
+  424  git status
+  425  git add .
+  426  git status
+  427  git commit --amend
+  428  git push origin master
+  429  exit
+  430  gsw --c
+  431  git status
+  432  git history
+  433  npp git2.txt
+  434  git status
+  435  git commit -am '2nd'
+  436  git add .
+  437  git status
+  438  git commit -am '2nd'
+  439  git status
+  440  git history
+  441  git checkout -b br2
+  442  npp br2.txt
+  443  git status
+  444  git add .
+  445  git commit -m 'br commit1'
+  446  git history
+  447  npp br2_2.txt
+  448  git add .
+  449  git commit -m 'br commit2'
+  450  git history
+  451  git checkout master
+  452  git checkout feature
+  453  учше
+  454  exit
+  455  git history
+  456  exit
+  457  git history
+  458  git merge --no-ff
+  459  git merge br2 --no-ff
+  460  git history
+  461  git checkout br2
+  462  npp br2new.txt
+  463  git add .
+  464  git commit -m 'br2new'
+  465  git history
+  466  git checkout feature
+  467  git merge br2 --no-ff
+  468  git history
+  469  git reset --hard 5f8d80b
+  470  git history
+  471  git status
+  472  npp new2.txt
+  473  git status
+  474  git add .
+  475  git commit -m 'new2'
+  476  git history
+  477  git reset --hard 5f8d80b
+  478  git history
+  479  git checkout br2
+  480  git status
+  481  npp newnew.txt
+  482  git status
+  483  git add .
+  484  git commit -m 'newnew'
+  485  git history
+  486  git checkout feature
+  487  git merge br2 --no-ff
+  488  git history
+  489  npp amend.txt
+  490  git status
+  491  git add .
+  492  git commit --amend
+  493  git history
+  494  git status
+  495  exit
+  496  git status
+  497  git branch -a
+  498  git history
+  499  git status; git branch -a; git history
+  500  exit
+  501  git allhist
+  502  allhist
+  503  allhist
+  504  git reset --hard 5321b04
+  505  git history
+  506  allhist
+  507  git pull
+  508  allhist
+  509  git merge Section4 --no-ff
+  510  allhist
+  511  git ls-files
+  512  ls -al
+  513  ll
+  514  ls -h
+  515  ls
+  516  ls -ah
+  517  git ls-files
+  518  cd Section4
+  519  history >> history3.txt
