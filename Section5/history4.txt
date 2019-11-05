@@ -1,0 +1,500 @@
+   11  git config --global -e
+   12  git config --system -e
+   13  git config --global -e
+   14  git config --global -e
+   15  git config --global -eexit
+   16  exit
+   17  gsw
+   18  gsw --c
+   19  gsw --s -h
+   20  gsw --c
+   21  gsw --s -i
+   22  gsw --c
+   23  exit
+   24  git config --global -e
+   25  git config --system -e
+   26  gsw --c
+   27  exit
+   28  history
+   29  exit
+   30  atom
+   31  git status
+   32  git branch -a
+   33  git history
+   34  git config --system -e
+   35  git status; git branch -a
+   36  git allhist
+   37  git config --system -e
+   38  git allhist
+   39  git config --system -e
+   40  git allhist
+   41  git config --system -e
+   42  exit
+   43  учше
+   44  exit
+   45  atom
+   46  npp Section4/history3.txt
+   47  history
+   48  exit
+   49  history
+   50  exit
+   51  git history
+   52  atom
+   53  git difftool de9fdfa
+   54  git checkout Section4
+   55  git difftool de9fdfa
+   56  git history
+   57  git pull
+   58  git history
+   59  git fetch
+   60  git reset --hard de9fdfa
+   61  git history
+   62  git history
+   63  git history --all
+   64  git checkout master
+   65  git history
+   66  git status
+   67  git checkout Section4
+   68  git status
+   69  git branch -a
+   70  git checkout Tasks Topic4/Task3.md
+   71  git status
+   72  git mv Topic4/Task3.md Section4/Topic4
+   73  git status
+   74  git ls-files
+   75  ls
+   76  ls -al
+   77  git rm -r Topic4
+   78  ls -al
+   79  git rm Topic4
+   80  ls -al
+   81  rm -r Topic4
+   82  ls -al
+   83  cd Section4
+   84  git status
+   85  git diff --staged >> feature.patch
+   86  git status
+   87  git rm Topic4/Task3.md
+   88  git status
+   89  git rm -f Topic4/Task3.md
+   90  git status
+   91  git apply feature.patch
+   92  git status
+   93  git add .
+   94  git status
+   95  git commit -m 'git - task3 - patch changes applied'
+   96  git history
+   97  git push --force origin HEAD:refs/for/Section4
+   98  git history
+   99  cd ..
+  100  git status
+  101  git ls-files
+  102  git history
+  103  git branch -a
+  104  exit
+  105  cd git branchtests
+  106  exit
+  107  git init
+  108  gsw --h
+  109  gsw --c
+  110  gsw --s -h
+  111  gsw --c
+  112  gsw --h
+  113  git config global -e
+  114  git config --global -e
+  115  git status
+  116  git add
+  117  git
+  118  git branch -a
+  119  git branch
+  120  git history
+  121  exit
+  122  git checkout -b feature
+  123  git branch -a
+  124  git status
+  125  git history
+  126  git checkout master
+  127  exit
+  128  git status
+  129  git branch -a
+  130  git history
+  131  git checkout master
+  132  history
+  133  git
+  134  npp git1.txt
+  135  history
+  136  clear
+  137  git history
+  138  git status
+  139  git branch -a
+  140  git add
+  141  git add .
+  142  git status
+  143  git commit -m 'git1'
+  144  git status
+  145  git history
+  146  git checkout master
+  147  git checkout newmaster
+  148  gsw --s -i
+  149  gsw --c
+  150  учше
+  151  exit
+  152  git history
+  153  git history
+  154  exit
+  155  atom
+  156  git checkout master
+  157  git fetch
+  158  git pull
+  159  git status
+  160  git branch -a
+  161  git merge Section4 --no-ff
+  162  git status
+  163  git history
+  164  git history
+  165  history
+  166  git history
+  167  git reflog
+  168  cd Section4
+  169  history >> history3.txt
+  170  git add .
+  171  git history
+  172  git status
+  173  history > history3.txt
+  174  git status
+  175  git add .
+  176  git status
+  177  git commit --amend
+  178  git push origin master
+  179  exit
+  180  gsw --c
+  181  git status
+  182  git history
+  183  npp git2.txt
+  184  git status
+  185  git commit -am '2nd'
+  186  git add .
+  187  git status
+  188  git commit -am '2nd'
+  189  git status
+  190  git history
+  191  git checkout -b br2
+  192  npp br2.txt
+  193  git status
+  194  git add .
+  195  git commit -m 'br commit1'
+  196  git history
+  197  npp br2_2.txt
+  198  git add .
+  199  git commit -m 'br commit2'
+  200  git history
+  201  git checkout master
+  202  git checkout feature
+  203  учше
+  204  exit
+  205  git history
+  206  exit
+  207  git history
+  208  git merge --no-ff
+  209  git merge br2 --no-ff
+  210  git history
+  211  git checkout br2
+  212  npp br2new.txt
+  213  git add .
+  214  git commit -m 'br2new'
+  215  git history
+  216  git checkout feature
+  217  git merge br2 --no-ff
+  218  git history
+  219  git reset --hard 5f8d80b
+  220  git history
+  221  git status
+  222  npp new2.txt
+  223  git status
+  224  git add .
+  225  git commit -m 'new2'
+  226  git history
+  227  git reset --hard 5f8d80b
+  228  git history
+  229  git checkout br2
+  230  git status
+  231  npp newnew.txt
+  232  git status
+  233  git add .
+  234  git commit -m 'newnew'
+  235  git history
+  236  git checkout feature
+  237  git merge br2 --no-ff
+  238  git history
+  239  npp amend.txt
+  240  git status
+  241  git add .
+  242  git commit --amend
+  243  git history
+  244  git status
+  245  exit
+  246  git status
+  247  git branch -a
+  248  git history
+  249  git status; git branch -a; git history
+  250  exit
+  251  git allhist
+  252  allhist
+  253  allhist
+  254  git reset --hard 5321b04
+  255  git history
+  256  allhist
+  257  git pull
+  258  allhist
+  259  git merge Section4 --no-ff
+  260  allhist
+  261  git ls-files
+  262  ls -al
+  263  ll
+  264  ls -h
+  265  ls
+  266  ls -ah
+  267  git ls-files
+  268  cd Section4
+  269  history >> history3.txt
+  270  allhist
+  271  git add .
+  272  allhist
+  273  cd ..
+  274  allhist
+  275  git commit --amend
+  276  allhist
+  277  git push origin master
+  278  exit
+  279  gsw -h
+  280  gsw -c
+  281  gsw -c
+  282  gsw -h
+  283  gsw -c
+  284  gsw --c
+  285  allhist
+  286  npp rm.txt
+  287  allhist
+  288  git add .
+  289  git status
+  290  npp rm2.txt
+  291  git status
+  292  rm rm.txt
+  293  rm rm2.txt
+  294  git status
+  295  git add .
+  296  git status
+  297  npp gitrm.txt
+  298  git status
+  299  git add .
+  300  git status
+  301  npp gitrm2.txt
+  302  git status
+  303  git rm gitrm.txt
+  304  git status
+  305  git rm -f gitrm.txt
+  306  git status
+  307  git rm -f gitrm2.txt
+  308  git status
+  309  rm -f gitrm2.txt
+  310  git status
+  311  exit
+  312  atom
+  313  git status
+  314  git fetch
+  315  git pull
+  316  git status
+  317  git history
+  318  git branch -a
+  319  git checkout Tasks
+  320  git checkout master
+  321  ssh -p 29418 syemelianau@gml-jbpm.gomel.iba.by gerrit create-branch syemelianau-git Section5 master
+  322  git fetch
+  323  allhist
+  324  git pull
+  325  allhist
+  326  git checkout Section5
+  327  allhist
+  328  mkdir Section5
+  329  npp Section5/newFile.txt
+  330  allhist
+  331  git add .
+  332  allhist
+  333  git commit -m 'git - task4 - created directory Section5 with newFile.txt'
+  334  allhist
+  335  git checkout master
+  336  allhist
+  337  git checkout -b 's5feature'
+  338  allhist
+  339  git status
+  340  git status
+  341  allhist
+  342  git merge Section5
+  343  allhist
+  344  npp Section5/newFile.txt
+  345  allhist
+  346  git commit -am 'git - task4 - added changes to newFile.txt in s5feature branch'
+  347  allhist
+  348  git checkout Section5
+  349  allhist
+  350  npp Section5/newFile.txt
+  351  allhist
+  352  git commit -am 'git - task4 - added changes to newFile.txt in Section5 branch'
+  353  allhist
+  354  exit
+  355  allhist
+  356  atom
+  357  git checkout Tasks
+  358  git checkout Section5
+  359  git merge s5feature --no-ff
+  360  git mergetool
+  361  git config --global -e
+  362  git config --system -e
+  363  git mergetool
+  364  git config --system -e
+  365  git mergetool
+  366  git commit
+  367  allhist
+  368  npp Section5/newFile.txt
+  369  allhist
+  370  git checkout Tasks Topic5/Task4.md
+  371  allhist
+  372  git mv Topic5 Section5
+  373  allhist
+  374  allhist
+  375  git add .
+  376  git status
+  377  git commit --amend
+  378  allhist
+  379  git status
+  380  git push origin HEAD:refs/for/Section5
+  381  git status
+  382  git pull
+  383  exit
+  384  git help config
+  385  git status
+  386  cat file
+  387  cat file.txt
+  388  git ls-files
+  389  cat amend.txt
+  390  cat
+  391  cat -h
+  392  cat --help
+  393  cat -A
+  394  cat -A amend.txt
+  395  cat -A f
+  396  cat -A amend.txt -n
+  397  cat -A amend.txt -n -T
+  398  cat -A amend.txt -T
+  399  cat -A amend.txt
+  400  cat -A amend.txt -n -E
+  401  cat amend.txt -n
+  402  cat amend.txt
+  403  cat .gitignore
+  404  git status
+  405  npp staged.txt
+  406  git status
+  407  git rm staged.txt
+  408  git add .
+  409  git status
+  410  git rm staged.txt
+  411  git rm --staged staged.txt
+  412  git rm --cached staged.txt
+  413  git status
+  414  git add .
+  415  git status
+  416  git rm -f staged.txt
+  417  git status
+  418  gsw -c
+  419  gsw --c
+  420  git log -2
+  421  git history -2
+  422  allhist -2
+  423  exit
+  424  allhist -2
+  425  git log
+  426  got log -p
+  427  git log -p
+  428  allhist -p
+  429  git log -p --word-diff
+  430  git log -U1 --word-diff
+  431  git log --stat
+  432  git log --pretty
+  433  git log --pretty=oneline
+  434  git log --oneline
+  435  git log --pretty=oneline --short
+  436  git log --pretty=short
+  437  git log --pretty=full
+  438  git log --short
+  439  git log --short --oneline
+  440  git log --graph
+  441  git log --graph --oneline
+  442  git log --graph --oneline -all
+  443  git log --graph --oneline --decorate
+  444  git remote
+  445  git remote add pb git://github.com/paulboone/ticgit.git
+  446  git remote
+  447  git remote -v
+  448  allhist
+  449  git fetch pb
+  450  allhist
+  451  git merge
+  452  git checkout master
+  453  allhist
+  454  git remote show origin
+  455  git remote show pb
+  456  git remote
+  457  git remote rename pb ppbb
+  458  git remote
+  459  allhist
+  460  git remote rm
+  461  git remote rm ppbb
+  462  git remote
+  463  allhist
+  464  git tag
+  465  git tag -a v0.1 -m 'version 0.1'
+  466  git tag
+  467  git show
+  468  git tag v0.2
+  469  git tag
+  470  git config
+  471  exit
+  472  git remote
+  473  git remote -v
+  474  git tag
+  475  exit
+  476  git remote
+  477  git remote -v
+  478  git tag
+  479  exit
+  480  npp .bashrc
+  481  exit
+  482  git clone https://github.com/git/git
+  483  exit
+  484  exit
+  485  g
+  486  exit
+  487  git branch -v
+  488  git branch -a
+  489  git branch -a -v
+  490  git branch -a -v
+  491  git branch -av
+  492  exit
+  493  allhist
+  494  git checkout master
+  495  git branch --merged
+  496  git branch --no-merged
+  497  exit
+  498  allhist
+  499  exit
+  500  allhist
+  501  git checkout Section5
+  502  allhist
+  503  atom
+  504  git checkout master
+  505  git fetch
+  506  git pull
+  507  git merge Section5 --no-ff
+  508  allhist
+  509  cd Section5
+  510  history >> history4.txt
