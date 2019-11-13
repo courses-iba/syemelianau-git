@@ -1,0 +1,500 @@
+   13  git mv Topic5/Task5.md Section5/Topic5
+   14  git status
+   15  rm Topic5
+   16  rm -r Topic5
+   17  git status
+   18  git commit --amend
+   19  git status
+   20  allhist
+   21  git push origin HEAD:refs/for/Section5
+   22  git status
+   23  allhist
+   24  gsw --c
+   25  git show 7cc94ec1ec05223a8c149e785aaf208dd0ab9603
+   26  git branch -u
+   27  git branch -h
+   28  exit
+   29  allhist
+   30  exit
+   31  pwd
+   32  git status
+   33  allhist
+   34  ls
+   35  npp simple.html
+   36  git status
+   37  git stash
+   38  git status
+   39  npp simple.html
+   40  ls
+   41  npp README.md
+   42  git status
+   43  git commit -am 'Quick fix in production to improve copyright notice'
+   44  git status
+   45  git stash apply
+   46  git status
+   47  npp simple.html
+   48  git status
+   49  git commit -am 'Done with simple.html updates'
+   50  git status
+   51  git stash list
+   52  git stash drop
+   53  git stash list
+   54  git ls-files
+   55  npp humans.txt
+   56  git status
+   57  npp ANewFile.txt
+   58  git status
+   59  git stash
+   60  git status
+   61  git stash apply
+   62  git stash drop
+   63  git stash list
+   64  git log --oneline --decorate --all --graph 
+   65  git stash list
+   66  git stash -u
+   67  git status
+   68  git stash list
+   69  npp README.md
+   70  git status
+   71  git commit -am 'Quick fix after stash on Readme file'
+   72  git status
+   73  git stash pop
+   74  rm ANewFile.txt
+   75  git status
+   76  git commit -am 'Updates to humans file after stash pop'
+   77  git status
+   78  pwd
+   79  git status
+   80  ls
+   81  npp simple.html
+   82  git stash save 'simple changes'
+   83  git status
+   84  git stash list
+   85  npp index.html
+   86  git status
+   87  git stash save 'index changes'
+   88  git status
+   89  npp README.md
+   90  git status
+   91  git stash save 'Readme changes'
+   92  git stash list
+   93  git status
+   94  git stash show stash@{1}
+   95  git status
+   96  git stash list
+   97  git stash apply stash@{1}
+   98  git status
+   99  git stash list
+  100  git stah drop stash@{1}
+  101  git stash list
+  102  git stash drop stash@{1}
+  103  git stash list
+  104  git stash drop
+  105  git stash list
+  106  git stash clear
+  107  git stash list
+  108  pwd
+  109  git status
+  110  git stash list
+  111  npp simple.html
+  112  npp humans.html
+  113  git status
+  114  npp humans.txt
+  115  git status
+  116  git add index.html
+  117  git status
+  118  npp new.md
+  119  git status
+  120  git stash -u
+  121  git status
+  122  git stash list
+  123  git stash branch newchanges
+  124  git stash list
+  125  git status
+  126  rm new.md
+  127  git status
+  128  git add .
+  129  git status
+  130  git commit -m 'Changes after git-stash-branch command'
+  131  git status
+  132  allhist
+  133  git checkout master 
+  134  git merge newchanges
+  135  git branch -d newchanges 
+  136  git branch
+  137  clear
+  138  pwd
+  139  git status
+  140  git pull origin master
+  141  git push origin master
+  142  allhist -10
+  143  pwd
+  144  git status
+  145  ls
+  146  allhist
+  147  git tag myTag
+  148  allhist
+  149  allhist -10
+  150  git tag --list
+  151  git show myTag
+  152  git tag --delete myTag
+  153  git tag --list
+  154  allhist -10
+  155  git tag -a v-1.0
+  156  git tag
+  157  git tag --list
+  158  allhist -10
+  159  git show v-1.0
+  160  git tag --list
+  161  ls
+  162  npp index.html
+  163  git commit -am 'Tweaking file for tagging example'
+  164  git status
+  165  allhist -10
+  166  git tag -a v-1.0 -m 'Release 1.1'
+  167  allhist -10
+  168  git tag -a v-1.1 -m 'Release 1.1'
+  169  allhist -10
+  170  git status
+  171  npp simple.html
+  172  git commit -am 'Updating for tag 1.1'
+  173  git status
+  174  git commit --amend
+  175  git tag v-1.2 -m 'Release 1.2'
+  176  git tag
+  177  allhist -10
+  178  git diff v-1.0 v-1.2
+  179  git difftool v-1.0 v-1.2
+  180  git config --system -e
+  181  git difftool v-1.0 v-1.2
+  182  git status -h
+  183  config
+  184  exit
+  185  histall
+  186  histall -a
+  187  histall -av
+  188  histall
+  189  exit
+  190  histall
+  191  sconfig
+  192  gconfig
+  193  lconfig
+  194  pwd
+  195  histall
+  196  git tag -a v-0.9-beta 089f7bf -m 'Beta Release 0.9'
+  197  git tag
+  198  histall
+  199  allhist
+  200  git tag -a v-0.8-alpha 7a0d1e3
+  201  git tag
+  202  allhist
+  203  pwd
+  204  ls
+  205  allhist -10
+  206  allhist
+  207  git tag -a v-0.8-alpha -f
+  208  allhist
+  209  git tag -a v-0.8-alpha -f 4e1a890
+  210  allhist
+  211  git tag
+  212  allhist
+  213  git push origin v-0.9-beta
+  214  git push origin v-1.1
+  215  git push origin master --tags
+  216  git tag
+  217  git push origin :v-0.8-alpha
+  218  git tag
+  219  history
+  220  git status
+  221  allhist
+  222  exit
+  223  allhist -10
+  224  hist all -av
+  225  histall -av
+  226  allhist
+  227  git push origin HEAD:refs/for/Section5
+  228  exit
+  229  git status
+  230  git diff
+  231  git diff HEAD
+  232  git diff --staged
+  233  exit
+  234  exit
+  235  allhist
+  236  git history
+  237  history
+  238  git status
+  239  history > history.txt
+  240  git history
+  241  git status
+  242  exit
+  243  allhist
+  244  git checkout master
+  245  git reset --hard 5934dfb
+  246  allhist
+  247  git checkout Section5
+  248  git reset --hard baabdb9
+  249  allhist
+  250  ls
+  251  git branch -d Section5secret
+  252  git branch -D Section5secret
+  253  allhist
+  254  git branch -d s5secret1
+  255  git branch -D s5secret1
+  256  allhist
+  257  git branch -D s5secret2
+  258  allhist
+  259  git checkout master
+  260  allhist
+  261  git featch
+  262  git fetch
+  263  allhist
+  264  git checkout Section5
+  265  allhist
+  266  git merge master
+  267  allhist
+  268  git checkout master
+  269  git ls-files
+  270  npp Section5/newFile.txt
+  271  allhist
+  272  history > history.txt
+  273  git commit -am 'git - task5 - added changes to newFile.txt in master branch'
+  274  allhist
+  275  git checkout Section5
+  276  git checkout -b Section5secret
+  277  allhist
+  278  git merge origin/s5secret1
+  279  allhist
+  280  git merge origin/s5secret2
+  281  git mergetool
+  282  sconfig
+  283  git mergetool
+  284  git merge
+  285  git mergetool
+  286  git commit
+  287  allhist
+  288  npp Section5/newFile.txt
+  289  allhist
+  290  git commit -am 'git - task5 - added changes to newFile.txt in Section5secret branch'
+  291  allhist
+  292  git checkout Section5
+  293  allhist
+  294  git merge Section5Secret
+  295  allhist
+  296  git checkout master
+  297  npp Section5/Task5S.md
+  298  git add .
+  299  git commit -m 'git - task5 - created Task5S.md in master branch'
+  300  git checkout Section5
+  301  git merge master --no-ff
+  302  git mergetool
+  303  git commit
+  304  allhist
+  305  git status
+  306  git status
+  307  git checkout Tasks Topic5/Task5.md
+  308  git status
+  309  git mv Topic5/Task5.md Section5/Topic5
+  310  git status
+  311  rm Topic5
+  312  rm -r Topic5
+  313  git status
+  314  git commit --amend
+  315  allhist
+  316  git checkout master
+  317  allhist
+  318  git pull
+  319  git checkout Section5
+  320  git push origin HEAD:refs/for/Section5
+  321  gsw --c
+  322  exit
+  323  allhist
+  324  sconfig
+  325  git diff HEAD install
+  326  git difftool HEAD install
+  327  gsw --c
+  328  gsw --s -h
+  329  gsw --c
+  330  exit
+  331  git status
+  332  gsw --h
+  333  gsw --c
+  334  gconfig
+  335  sconfig
+  336  gsw --h
+  337  gsw --c
+  338  gsw --s -h
+  339  gsw --s -i
+  340  gsw --c
+  341  sconfig
+  342  gconfig
+  343  gsw --s -h
+  344  gconfig
+  345  gsw --c
+  346  git status
+  347  exit
+  348  git status
+  349  git diff HEAD
+  350  allhist
+  351  gconfig
+  352  gsw --c
+  353  gsw --s -i
+  354  gsw --c
+  355  gconfig
+  356  sconfig
+  357  sconfig
+  358  git diff HEAD
+  359  exit
+  360  cd ..
+  361  history > history.txt
+  362  exit
+  363  allhist > hist.txt
+  364  allhist
+  365  exit
+  366  git status
+  367  exit
+  368  allhist -10
+  369  git checkout Tasks
+  370  gsw --c
+  371  git checkout
+  372  exit
+  373  git rebase --help
+  374  exit
+  375  exit
+  376  g
+  377  allhist
+  378  exit
+  379  git status
+  380  allhist -10
+  381  git checkout master
+  382  git fetch
+  383  git pull
+  384  allhist -10
+  385  git merge Section5 --no-ff
+  386  allhist -10
+  387  git push origin --delete s5secret1
+  388  git push origin --delete s5secret2
+  389  cd Section5
+  390  history >> history5.txt
+  391  allhist -10
+  392  git add .
+  393  git commit --amend
+  394  allhist -10
+  395  git push
+  396  allhist -10
+  397  git status
+  398  git fetch
+  399  git pull
+  400  exit
+  401  gsw --c
+  402  git remote
+  403  allhist -10
+  404  ll
+  405  git reflog
+  406  exit
+  407  git fetch
+  408  git pull
+  409  allhist -10
+  410  git checkout Tasks 
+  411  git checkout master 
+  412  git fetch
+  413  git pull
+  414  ssh -p 29418 syemelianau@gml-jbpm.gomel.iba.by gerrit create-branch syemelianau-git Section6 master
+  415  git fetch
+  416  git pull
+  417  git checkout Section6
+  418  git fetch
+  419  git pull
+  420  allhist -10
+  421  git checkout -b Section6r
+  422  allhist -10
+  423  git checkout master
+  424  allhist -10
+  425  npp Section6/rebase_msample.txt
+  426  mkdir Section6
+  427  ls
+  428  npp Section6/rebase_msample.txt
+  429  git add .
+  430  allhist -10
+  431  git commit -m 'git - task6 - Rebase source'
+  432  allhist -10
+  433  git checkout Section6r
+  434  git merge master
+  435  allhist -10
+  436  git checkout master
+  437  npp Section6/rebase_msample.txt
+  438  allhist -10
+  439  git add .
+  440  git commit -m 'git - task6 - Master Rebase 2'
+  441  npp Section6/rebase_msample.txt
+  442  git add .
+  443  allhist -10
+  444  git commit -m 'git - task6 - Master Rebase 3'
+  445  allhist -10
+  446  git checkout Section6r
+  447  npp Section6/rebase_fsample.txt
+  448  allhist -10
+  449  git add .
+  450  allhist -10
+  451  git commit -m 'git - task6 - Feature Rebase 2'
+  452  allhist -10
+  453  npp Section6/rebase_fsample.txt
+  454  git add .
+  455  git commit -m 'git - task6 - Feature Rebase 3'
+  456  allhist -10
+  457  git checkout Section6r
+  458  git rebase master
+  459  allhist -10
+  460  git checkout Section6r
+  461  npp Section6/rebase_msample.txt
+  462  git add .
+  463  git commit -m 'git - task6 - Feature Rebase 4 conflicts'
+  464  allhist -10
+  465  git checkout master
+  466  npp Section6/rebase_msample.txt
+  467  git add .
+  468  git commit -m 'git - task6 - Master Rebase 4 conflicts'
+  469  git checkout Section6r
+  470  git rebase master
+  471  git rebase --abort
+  472  git rebase master
+  473  git mergetool
+  474  allhist -10
+  475  git add Section6/rebase_msample.txt
+  476  allhist -10
+  477  git rebase --continue
+  478  allhist -10
+  479  allhist -10
+  480  git checkout Section6
+  481  git merge Section6r
+  482  allhist -10
+  483  git checkout Tasks Topic6/Task6.md
+  484  allhist -10
+  485  git mv Topic6 Section6
+  486  allhist -10
+  487  git commit --amend
+  488  allhist -10
+  489  git push origin HEAD:refs/for/Section6
+  490  allhist -10
+  491  exit
+  492  exit
+  493  gconfig
+  494  gconfig
+  495  sconfig
+  496  gsw --c
+  497  allhist -10
+  498  git branch -m br2 br
+  499  allhist -10
+  500  exit
+  501  git checkout master
+  502  git fetch
+  503  git pull
+  504  git fetch
+  505  git fetch
+  506  git pull
+  507  git fetch
+  508  git pull
+  509  git merge Section6 --no-ff
+  510  allhist -10
+  511  cd Section6
+  512  history >> history6.txt
