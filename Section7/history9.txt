@@ -1,0 +1,500 @@
+   10  allhist -10
+   11  git checkout Section6r
+   12  git rebase master
+   13  allhist -10
+   14  git checkout Section6r
+   15  npp Section6/rebase_msample.txt
+   16  git add .
+   17  git commit -m 'git - task6 - Feature Rebase 4 conflicts'
+   18  allhist -10
+   19  git checkout master
+   20  npp Section6/rebase_msample.txt
+   21  git add .
+   22  git commit -m 'git - task6 - Master Rebase 4 conflicts'
+   23  git checkout Section6r
+   24  git rebase master
+   25  git rebase --abort
+   26  git rebase master
+   27  git mergetool
+   28  allhist -10
+   29  git add Section6/rebase_msample.txt
+   30  allhist -10
+   31  git rebase --continue
+   32  allhist -10
+   33  allhist -10
+   34  git checkout Section6
+   35  git merge Section6r
+   36  allhist -10
+   37  git checkout Tasks Topic6/Task6.md
+   38  allhist -10
+   39  git mv Topic6 Section6
+   40  allhist -10
+   41  git commit --amend
+   42  allhist -10
+   43  git push origin HEAD:refs/for/Section6
+   44  allhist -10
+   45  exit
+   46  exit
+   47  gconfig
+   48  gconfig
+   49  sconfig
+   50  gsw --c
+   51  allhist -10
+   52  git branch -m br2 br
+   53  allhist -10
+   54  exit
+   55  git checkout master
+   56  git fetch
+   57  git pull
+   58  git fetch
+   59  git fetch
+   60  git pull
+   61  git fetch
+   62  git pull
+   63  git merge Section6 --no-ff
+   64  allhist -10
+   65  cd Section6
+   66  history >> history6.txt
+   67  allhist -10
+   68  cd ..
+   69  git add .
+   70  allhist -10
+   71  git commit --amend
+   72  git push
+   73  allhist -10
+   74  exit
+   75  allhist -10
+   76  exit
+   77  allhist -10
+   78  allhist
+   79  exit
+   80  git checkout Tasks
+   81  git checkout master
+   82  allhist -10
+   83  git fetch
+   84  git pull
+   85  allhist -10
+   86  git fetch
+   87  git pull
+   88  allhist -10
+   89  npp Section6/rebase_msample.txt
+   90  allhist -10
+   91  git add .
+   92  git add .
+   93  allhist -10
+   94  git commit -m 'git - task7 - Master of Golden Rule'
+   95  allhist -10
+   96  git checkout Section6
+   97  npp Section6/rebase_msample.txt
+   98  git add .
+   99  allhist -10
+  100  git commit -m 'git - task7 - Feature of Golden Rule'
+  101  git push origin Section6
+  102  allhist -10
+  103  git rebase master
+  104  git mergetool
+  105  git rebase --continue
+  106  allhist -10
+  107  git checkout Tasks Topic6/Task7.md
+  108  allhist -10
+  109  git mv Topic6/Task7.md Section6/Topic6
+  110  allhist -10
+  111  rm -r Topic6
+  112  git commit --amend
+  113  git push origin Section6
+  114  git push --help
+  115  allhist -10
+  116  git reflog
+  117  git reflog -10
+  118  allhist -10
+  119  git reset --hard 13163d4
+  120  allhist -10
+  121  git checkout Tasks Topic6/Task7.md
+  122  allhist -10
+  123  git mv Topic6/Task7.md Section6/Topic6
+  124  allhist -10
+  125  rm -r Topic6
+  126  git commit --amend
+  127  allhist -10
+  128  allhist
+  129  allhist -10
+  130  git push origin HEAD:refs/for/Section6
+  131  allhist -10
+  132  exit
+  133  git checkout master
+  134  git checkout Tsaks
+  135  git checkout Tasks
+  136  exit
+  137  exit
+  138  git checkout master 
+  139  git fetch
+  140  git pull
+  141  allhist -10
+  142  git checkout Section6
+  143  git pull
+  144  allhist -10
+  145  git checkout master 
+  146  git pull
+  147  git merge Section6 --no-ff
+  148  git mergetool
+  149  allhist -10
+  150  git commit
+  151  allhist -10
+  152  cd Section6
+  153  history >> history7.txt
+  154  git add .
+  155  git commit --amend
+  156  git push
+  157  allhist -10
+  158  git checkout Tasks
+  159  exit
+  160  allhist
+  161  git checkout master
+  162  git fetch
+  163  git pull
+  164  allhist
+  165  git checkout Tasks
+  166  exit
+  167  git checkout master
+  168  git fetch
+  169  git pull
+  170  фддршые -10
+  171  allhist -10
+  172  gsw --c
+  173  git checkout Section6
+  174  git pull
+  175  npp Section6/iRebase.txt
+  176  git add .
+  177  git commit -m 'git - task8 - Interactive Rebase commit 1'
+  178  npp Section6/iRebase.txt
+  179  git add .
+  180  git commit -m 'git - task8 - Interactive Rebase commit 2'
+  181  npp Section6/iRebase.txt
+  182  git add .
+  183  git commit -m 'git - task8 - Interactive Rebase commit 3'
+  184  npp Section6/iTestFile.txt
+  185  git add .
+  186  git commit -m 'git - task8 - Interactive Rebase commit 4'
+  187  allhist -10
+  188  git rebase -i HEAD~2
+  189  allhist -10
+  190  git rebase -i HEAD~4
+  191  allhist -10
+  192  git rebase -i HEAD~1
+  193  allhist -10
+  194  git reset HEAD^
+  195  allhist -10
+  196  git add Section6/iRebase.txt
+  197  allhist -10
+  198  git commit -m 'git - task8 - iRebase.txt added'
+  199  allhist -10
+  200  git add .
+  201  allhist -10
+  202  git commit -m 'git - task8 - iTestFile.txt added'
+  203  allhist -10
+  204  git rebase --continue
+  205  allhist -10
+  206  git rebase -i HEAD~2
+  207  allhist -10
+  208  git checkout Tasks Topic6/Task8.md
+  209  allhist -10
+  210  git mv Topic6/Task8.md Section6/Topic6
+  211  allhist -10
+  212  rmdir Topic6
+  213  git commit --amend
+  214  allhist -10
+  215  git push origin HEAD:refs/for/Section6
+  216  allhist -10
+  217  exit
+  218  git checkout Tasks 
+  219  git checkout master 
+  220  git stash --help
+  221  exit
+  222  gsw --c
+  223  git checkout Tasks 
+  224  gconfig
+  225  sconfig
+  226  gconfig
+  227  sconfig
+  228  exit
+  229  allhist -10
+  230  histall -v
+  231  exit
+  232  exit
+  233  allhist
+  234  git reset fdf4f3d
+  235  allhist
+  236  git revert
+  237  git revert fdf4f3d
+  238  git checkout feature
+  239  git checkout br
+  240  exit
+  241  exit
+  242  git init
+  243  npp r
+  244  git add .
+  245  git commit -m 'sdf'
+  246  npp rr
+  247  git add .
+  248  git commit -m 'sdf'
+  249  allhist -10
+  250  npp rr
+  251  git commit -am 'sdf'
+  252  allhist -10
+  253  git checkout  br
+  254  git checkout -b br
+  255  npp rrr
+  256  git add .
+  257  git commit -am 'sdff'
+  258  git checkout -b br
+  259  allhist -10
+  260  фддршые
+  261  allhist
+  262  npp sg
+  263  git add .
+  264  git commit -am 'sdfsgf'
+  265  allhist
+  266  git checkout  master 
+  267  npp wefsrf
+  268  git add .
+  269  git commit -m 'wesfdrg'
+  270  allhist
+  271  npp wrqw
+  272  git add .
+  273  git commit -m 'wesfdrg'
+  274  allhist
+  275  git checkout dr
+  276  git checkout br
+  277  nppjklhn
+  278  npp jklhn
+  279  git add .
+  280  git commit -m 'wesfdrgqwef'
+  281  allhist
+  282  git reset eeb84e3
+  283  allhist
+  284  git reflog
+  285  git reset 437c558
+  286  allhist
+  287  git reset eeb84e3
+  288  git reset 437c558
+  289  allhist
+  290  git reset 0ba8556
+  291  git reset 437c558
+  292  git reset --hard 0ba8556
+  293  git reset --hard 437c558
+  294  git reset --hard 0ba8556
+  295  git reset --hard 437c558
+  296  allhist
+  297  git reset --hard 0ba8556
+  298  allhist
+  299  git reset --hard 437c558
+  300  allhist
+  301  git reset 0ba8556
+  302  allhist
+  303  git reset 437c558
+  304  allhist
+  305  git reset --hard 0ba8556
+  306  allhist
+  307  allhist
+  308  git reset 437c558
+  309  git reset --hard 437c558
+  310  allhist
+  311  git checkout eeb84e3
+  312  allhist
+  313  git checkout 437c558
+  314  allhist
+  315  git checkout br
+  316  allhist
+  317  git reset --hard eeb84e3
+  318  allhist
+  319  git reset --hard 437c558
+  320  allhist
+  321  git reset --hard 0ba8556
+  322  allhist
+  323  git revert eeb84e3
+  324  allhist
+  325  allhist
+  326  git checkout master 
+  327  allhist
+  328  git stash -u
+  329  allhist
+  330  git stash apply
+  331  allhist
+  332  git stash drop
+  333  allhist
+  334  git checkout br
+  335  git stash
+  336  allhist
+  337  git stash -u
+  338  allhist
+  339  git checkout master 
+  340  git stash list
+  341  git stash list br
+  342  git reflog
+  343  git reflog stash
+  344  git reflog stash --grep-reflog=br
+  345  allhist
+  346  npp ff
+  347  allhist
+  348  git stash -u
+  349  git stash list
+  350  git stash list br
+  351  git reflog stash --grep-reflog=br
+  352  git stash list br
+  353  git reflog
+  354  git reflog help
+  355  git reflog --help
+  356  git reflog show
+  357  git reflog
+  358  git reflog stash
+  359  git stash list
+  360  git reflog stash@{1}
+  361  git reflog stash@{br}
+  362  git reflog stash br
+  363  git reflog stash -- br
+  364  git log help
+  365  git log --help
+  366  git help log
+  367  git stash list --format=br
+  368  git stash list --pretty=br
+  369  git stash list -G br
+  370  git stash list -G 
+  371  git stash list
+  372  git reflog stash
+  373  git stash list
+  374  git reflog stash list
+  375  git reflog stash br
+  376  allhist 
+  377  exit
+  378  git checkout master
+  379  allhist -10
+  380  git fetch
+  381  git pull
+  382  allhist -10
+  383  git checkout Section6
+  384  git fetch
+  385  git fetch
+  386  git pull
+  387  allhist -10
+  388  git checkout master
+  389  git fetch
+  390  git pull
+  391  git merge Section6 --no-ff
+  392  cd Section6
+  393  history >> history8.txt
+  394  git add .
+  395  git commit --amend
+  396  allhist -10
+  397  git push
+  398  exit
+  399  git checkout master
+  400  git checkout Tasks 
+  401  allhist -10
+  402  git checkout master
+  403  git fetch
+  404  git pull
+  405  allhist -10
+  406  ssh -p 29418 syemelianau@gml-jbpm.gomel.iba.by gerrit create-branch syemelianau-git Section7 master
+  407  git fetch
+  408  git pull
+  409  git checkout Section7
+  410  allhist -10
+  411  npp Section7/stashIt.md
+  412  npp Section7/stashIt.md
+  413  npp Section7/stashIt.md
+  414  mkdir Section7
+  415  npp Section7/stashIt.md
+  416  allhist -10
+  417  git stash save -u 'Stashed!'
+  418  npp Section7/stashIt2.md
+  419  npp Section7/stashIt2.md
+  420  mkdir Section7
+  421  npp Section7/stashIt2.md
+  422  npp Section7/stashIt3.md
+  423  allhist -10
+  424  git stash -u
+  425  allhist -10
+  426  git stash list
+  427  git checkout stash@{0} Section7/stashIt2.md
+  428  git stash list
+  429  allhist -10
+  430  git show stash@{0}
+  431  git show d8a2f7da41f440a08745df889bf786a9662b74f8
+  432  allhist -10
+  433  git stash apply
+  434  git ls-files
+  435  ls
+  436  ll
+  437  cd Section7
+  438  ll
+  439  allhist -10
+  440  git stash list
+  441  git stash pop
+  442  git stash list
+  443  git stash list
+  444  git stash pop
+  445  git stash list
+  446  git stash pop
+  447  git stash list
+  448  allhist -10
+  449  allhist -10
+  450  cd ..
+  451  allhist -10
+  452  mkdir Section7
+  453  npp Section7/stashIt.md
+  454  allhist -10
+  455  git add .
+  456  allhist -10
+  457  git stash save 'Stashed!'
+  458  allhist -10
+  459  mkdir Section7
+  460  npp Section7/stashIt2.md
+  461  npp Section7/stashIt3.md
+  462  allhist -10
+  463  git add .
+  464  allhist -10
+  465  git stash
+  466  allhist -10
+  467  git stash list
+  468  git checkout stash@{0} Section7/stashIt2.md
+  469  allhist -10
+  470  git stash list
+  471  git stash drop
+  472  git stash list
+  473  allhist -10
+  474  git commit -m 'git - task9 - stashIt2.md added'
+  475  allhist -10
+  476  git stash branch featureStash
+  477  allhist -10
+  478  git stash list
+  479  git commit -m 'git - task9 - stashIt.md added'
+  480  allhist -10
+  481  git checkout Section7
+  482  allhist -10
+  483  git merge featureStash
+  484  allhist -10
+  485  git checkout Tasks Topic7/Task9.md
+  486  allhist -10
+  487  git mv Topic7 Section7
+  488  allhist -10
+  489  git commit --amend
+  490  allhist -10
+  491  git push origin HEAD:refs/for/Section7
+  492  git push origin HEAD:refs/for/Section7
+  493  git push origin HEAD:refs/for/Section7
+  494  allhist -10
+  495  allhist
+  496  git fetch
+  497  exit
+  498  git clone https://github.com/EmelyanovSI/labs-python.git
+  499  exit
+  500  allhist -10
+  501  git fetch
+  502  git pull
+  503  allhist -10
+  504  git checkout master
+  505  git fetch
+  506  git pull
+  507  git merge Section7 --no-ff
+  508  cd Section7
+  509  history >> history9.txt
