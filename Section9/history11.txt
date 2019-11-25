@@ -1,0 +1,500 @@
+   10  git tag --list
+   11  git tag --list
+   12  git checkout Tasks Topic8/Task10.md
+   13  allhist -10
+   14  git mv Topic8 Section8
+   15  allhist -10
+   16  allhist -10
+   17  git checkout Tasks Topic8/Task10.md
+   18  allhist -10
+   19  git mv Topic8 Section8
+   20  allhist -10
+   21  git restore --staged Section8/Task10.md
+   22  allhist -10
+   23  rm Section8/Task10.md
+   24  allhist -10
+   25  git commit -m 'git - task10 - added tags'
+   26  git push origin HEAD:refs/for/Section8
+   27  git push origin --tags
+   28  allhist
+   29  git checkout master
+   30  git fetch
+   31  git pull
+   32  exit
+   33  git checkout master
+   34  git fetch
+   35  git pull
+   36  allhist 
+   37  git checkout Section8
+   38  allhist 
+   39  git fetch
+   40  git pull
+   41  git checkout master
+   42  git merge Section8 --no-ff
+   43  allhist -10
+   44  cd Section8
+   45  history >> history10.txt
+   46  allhist -10
+   47  git add .
+   48  allhist -10
+   49  git commit --amend
+   50  allhist -10
+   51  git push
+   52  allhist
+   53  exit
+   54  allhist -10
+   55  history
+   56  git reflog stash --decorate-refs=s9feature
+   57  npp Section9/alpha.txt
+   58  allhist -10
+   59  git checkout s9feature
+   60  git stash apply
+   61  git add .
+   62  allhist -10
+   63  git stash apply
+   64  allhist -10
+   65  git stash drop
+   66  git stash list
+   67  git checkout  master 
+   68  allhist -10
+   69  git branch -d s9feature
+   70  git branch -D s9feature
+   71  allhist -10
+   72  git branch -d Section9
+   73  git branch -D Section9
+   74  allhist -10
+   75  git checkout master
+   76  git fetch
+   77  git pull
+   78  ssh -p 29418 syemelianau@gml-jbpm.gomel.iba.by gerrit create-branch syemelianau-git Section9 master
+   79  git fetch
+   80  git pull
+   81  git checkout Section9
+   82  allhist -10
+   83  mkdir Section9
+   84  npp Section9/alpha.txt
+   85  git add .
+   86  git commit -m 'git - task11 - created alpha.txt in Section9 branch'
+   87  git checkout -b s9feature
+   88  npp Section9/alpha.txt
+   89  git commit -am 'git - task11 - added changes to alpha.txt in s9feature branch'
+   90  npp Section9/beta.txt
+   91  git add .
+   92  git commit -m 'git - task11 - created beta.txt in s9feature branch'
+   93  npp Section9/gamma.txt
+   94  git add .
+   95  git commit -m 'git - task11 - created gamma.txt in s9feature branch'
+   96  allhist -10
+   97  exit
+   98  allhist 
+   99  exit
+  100  history 
+  101  allhist -10
+  102  git checkout 68037f5
+  103  git checkout bc09931
+  104  allhist -10
+  105  git reset --hard 71dad24
+  106  git revert 68037f5
+  107  git reset beb0ff4
+  108  allhist -10
+  109  git stash -u
+  110  git stash list
+  111  git checkout Section9
+  112  git reflog stash --decorate-refs=s9feature
+  113  npp Section9/alpha.txt
+  114  git commit -am 'git - task11 - added changes to alpha.txt in Section9 branch'
+  115  git checkout s9feature
+  116  allhist -10
+  117  git stash apply
+  118  git stash list
+  119  git stash apply stash@{0} 
+  120  git checkout Section9
+  121  git stash list
+  122  git stash apply
+  123  git stash list
+  124  allhist -10
+  125  git checkout s9feature
+  126  allhist -10
+  127  git stash pop
+  128  git stash list
+  129  git stash apply --index
+  130  git stash list
+  131  allhist -10
+  132  exit
+  133  allhist -10
+  134  git stash apply
+  135  git checkout Tasks 
+  136  history
+  137  allhist -10
+  138  git stash drop
+  139  git branch -d Section9
+  140  git branch -D Section9
+  141  git branch -D s9feature 
+  142  allhist -10
+  143  git fetch
+  144  git pull
+  145  git checkout Section9
+  146  mkdir Section9
+  147  git checkout Section9
+  148  npp Section9/alpha.txt
+  149  git add .
+  150  git commit -m 'git - task11 - created alpha.txt in Section9 branch'
+  151  allhist -10
+  152  git checkout -b s9feature
+  153  npp Section9/alpha.txt
+  154  git commit -am 'git - task11 - added changes to alpha.txt in s9feature branch'
+  155  npp Section9/beta.txt
+  156  git add .
+  157  git commit -m 'git - task11 - created beta.txt in s9feature branch'
+  158  npp Section9/gamma.txt
+  159  git add .
+  160  git commit -m 'git - task11 - created gamma.txt in s9feature branch'
+  161  allhist -10
+  162  git checkout 72f9a2a
+  163  git checkout ce1d989
+  164  allhist -10
+  165  git checkout s9feature 
+  166  allhist -10
+  167  git reset --hard ca0b732
+  168  allhist -10
+  169  git revert 72f9a2a
+  170  allhist -10
+  171  git reset 0ee5045
+  172  allhist -10
+  173  git stash -u
+  174  allhist -10
+  175  git checkout Section9
+  176  git reflog stash --decorate-refs=s9feature
+  177  git reflog stash --grep-reflog=s9feature
+  178  allhist -10
+  179  npp Section9/alpha.txt
+  180  git commit -am 'git - task11 - added changes to alpha.txt in Section9 branch'
+  181  git checkout s9feature
+  182  git stash apply
+  183  git add .
+  184  git commit -m 'git - task11 - applied stash changes to alpha.txt in s9feature branch'
+  185  git checkout Section9
+  186  allhist -10
+  187  git cherry-pick 39079c2
+  188  allhist -10
+  189  Section9/answer.md
+  190  npp Section9/answer.nd
+  191  allhist -10
+  192  history
+  193  exit
+  194  git checkout Tasks 
+  195  git checkout Section9
+  196  allhist -10
+  197  rm Section9/answer.nd
+  198  allhist -10
+  199  npp Section9/answer.md
+  200  git ls-files
+  201  git ls-files -p
+  202  git ls-files -s
+  203  npp Section9/answer.md
+  204  allhist -10
+  205  git add .
+  206  git commit -m 'git - task11 - created answer.md in Section9 branch'
+  207  git checkout Tasks Topic9/Task11.md
+  208  allhist -10
+  209  git mv Topic9 Section9
+  210  allhist -10
+  211  git commit --amend
+  212  git push origin HEAD:refs/for/Section9
+  213  git push origin HEAD:refs/for/Section9
+  214  exit
+  215  allhist -10
+  216  history
+  217  allhist -10
+  218  exit
+  219  allhist -10
+  220  exit
+  221  allhist -10
+  222  allhist -10
+  223  git checkout Tasks 
+  224  git checkout Section9
+  225  exit
+  226  git checkout Tasks 
+  227  git checkout Section9
+  228  allhist -10
+  229  git checkout Tasks 
+  230  git checkout Section9
+  231  git checkout master 
+  232  allhist -10
+  233  git stash drop
+  234  git stash list
+  235  git branch -D Section9
+  236  git branch -D s9feature 
+  237  allhist -10
+  238  git fetch
+  239  git pull
+  240  git checkout Section9
+  241  mkdir Section9
+  242  npp Section9/alpha.txt
+  243  git add .
+  244  allhist -10
+  245  git commit -m 'git - task11 - Alpha'
+  246  git checkout -b s9feature
+  247  npp Section9/alpha.txt
+  248  git commit -am 'git - task11 - Non-Alpha'
+  249  npp Section9/beta.txt
+  250  git add .
+  251  git commit -m 'git - task11 - Beta'
+  252  npp Section9/gamma.txt
+  253  git add .
+  254  git commit -m 'git - task11 - Gamma'
+  255  allhist -10
+  256  git checkout 13afa18
+  257  git checkout s9feature 
+  258  allhist -10
+  259  git reset --hard d6e8db1
+  260  allhist -10
+  261  git revert 13afa18
+  262  allhist -10
+  263  git reset cb50429
+  264  allhist -10
+  265  git stash
+  266  git stash -u
+  267  allhist -10
+  268  git checkout Section9
+  269  allhist -10
+  270  git reflog stash --grep-reflog=s9feature
+  271  npp Section9/alpha.txt
+  272  git commit -am 'git - task11 - Full-Alpha'
+  273  git checkout s9feature
+  274  git stash apply
+  275  git add .
+  276  allhist -10
+  277  git commit -m 'git - task11 - applied stash changes in s9feature branch'
+  278  git checkout Section9
+  279  allhist -10
+  280  git cherry-pick e091fc9
+  281  allhist -10
+  282  npp Section9/answer.md
+  283  exit
+  284  allhist -10
+  285  npp Section9/answer.md
+  286  allhist -10
+  287  git add .
+  288  git commit -m 'git - task11 - created answer.md in Section9 branch'
+  289  git checkout Tasks Topic9/Task11.md
+  290  git mv Topic9 Section9
+  291  git commit --amend
+  292  git push origin HEAD:refs/for/Section9
+  293  allhist -10
+  294  git log
+  295  allhist -10
+  296  git reflog -10
+  297  git reflog
+  298  exit
+  299  allhist -10
+  300  exit
+  301  history > history.txt
+  302  allhist -10
+  303  git checkout master
+  304  git fetch
+  305  git checkout Tasks 
+  306  git pull
+  307  git checkout master
+  308  git checkout Section9
+  309  exit
+  310  allhist -10
+  311  npp dd
+  312  allhist -10
+  313  rm dd
+  314  allhist -10
+  315  ls
+  316  npp rr
+  317  allhist -10
+  318  git restore rr
+  319  allhist -10
+  320  npp rr
+  321  exit
+  322  allhist -10
+  323  git reglog
+  324  git reflog
+  325  allhist -10
+  326  allhist -10
+  327  git stash list
+  328  git stash drop
+  329  git stash drop
+  330  git stash drop
+  331  allhist -10
+  332  git cherry-pick br
+  333  allhist -1
+  334  git cherry-pick -a
+  335  git cherry-pick --abort
+  336  git checkout -b rr
+  337  npp npp
+  338  git add .
+  339  git commit -m 'af'
+  340  git checkout master 
+  341  npp nppp
+  342  git add .
+  343  git commit -m 'sgd'
+  344  allhist -10
+  345  git cherry-pick rr
+  346  allhist -10
+  347  git checkout rr
+  348  npp n
+  349  npp m
+  350  git add .
+  351  git commit -m 'asd
+  352  '
+  353  allhist -10
+  354  npp nn
+  355  npp mm
+  356  git add .
+  357  git commit -m 'qwe'
+  358  git checkout master 
+  359  allhist -10
+  360  git cherry-pick rr
+  361  git checkout 52aea8d
+  362  git checkout aad1cd1
+  363  git checkout 52aea8d
+  364  git checkout 672aaae
+  365  git checkout master 
+  366  exit
+  367  allhist -10
+  368  git stash drop
+  369  git branch -D Section9
+  370  git branch -D Section9
+  371  git checkout mas
+  372  git checkout master 
+  373  git branch -D Section9
+  374  git branch -D s9feature 
+  375  allhist -10
+  376  git fetch
+  377  git pull
+  378  git checkout Section9
+  379  npp Section9/alpha.txt
+  380  mkdir Section9
+  381  npp Section9/alpha.txt
+  382  git add .
+  383  git commit -m 'git - task11 - Alpha'
+  384  git checkout -b s9feature
+  385  npp Section9/alpha.txt
+  386  git commit -am 'git - task11 - Non-Alpha'
+  387  npp Section9/beta.txt
+  388  git add .
+  389  git commit -m 'git - task11 - Beta'
+  390  npp Section9/gamma.txt
+  391  git add .
+  392  git commit -m 'git - task11 - Gamma'
+  393  allhist -10
+  394  git checkout HEAD^^
+  395  git checkout s9feature 
+  396  allhist -10
+  397  git reset --hard HEAD^
+  398  allhist -10
+  399  git revert HEAD
+  400  allhist -10
+  401  git diff HEAD HEAD^^
+  402  git diff HEAD HEAD^
+  403  allhist -10
+  404  git reset HEAD^^^
+  405  allhist -10
+  406  git stash -u
+  407  git checkout Section9
+  408  git reflog stash --grep-reflog=s9feature
+  409  allhist -10
+  410  npp Section9/alpha.txt
+  411  git commit -am 'git - task11 - Full-Alpha'
+  412  git checkout s9feature
+  413  git stash apply
+  414  git add .
+  415  git commit -m 'git - task11 - applied stash changes'
+  416  git checkout Section9
+  417  allhist -10
+  418  git cherry-pick s9feature
+  419  git mergetool
+  420  allhist -10
+  421  git commit
+  422  allhist -10
+  423  npp Section9/answer.md
+  424  git add .
+  425  git commit -m 'git - task11 - Answer'
+  426  allhist -10
+  427  git checkout Tasks Topic9/Task11.md
+  428  git mv Topic9 Section9
+  429  git commit --amend
+  430  allhist -10
+  431  git ls-files
+  432  git diff HEAD HEAD^
+  433  git rm Section9/alpha.txt.orig
+  434  allhist -10
+  435  git commit --amend
+  436  allhist -10
+  437  git push origin HEAD:refs/for/Section9
+  438  allhist -10
+  439  git stash drop
+  440  git stash drop
+  441  git checkout master 
+  442  allhist -10
+  443  git branch -D Section9
+  444  git branch -D s9feature 
+  445  allhist -10
+  446  git fetch
+  447  git pull
+  448  git checkout Section9
+  449  npp Section9/alpha.txt
+  450  allhist -10
+  451  rm -r Section9
+  452  rm -r Section9
+  453  rm -r Section9
+  454  allhist -10
+  455  git fetch
+  456  git pull
+  457  git checkout Section9
+  458  npp Section9/alpha.txt
+  459  mkdir Section9
+  460  npp Section9/alpha.txt
+  461  git add .
+  462  git commit -m 'git - task11 - Alpha'
+  463  git checkout -b s9feature
+  464  npp Section9/alpha.txt
+  465  git commit -am 'git - task11 - Non-Alpha'
+  466  npp Section9/beta.txt
+  467  git add .
+  468  git commit -m 'git - task11 - Beta'
+  469  npp Section9/gamma.txt
+  470  git add .
+  471  git commit -m 'git - task11 - Gamma'
+  472  git checkout HEAD^^
+  473  git checkout s9feature
+  474  git reset --hard HEAD^
+  475  git revert HEAD
+  476  git reset HEAD^^^
+  477  npp Section9/alpha.txt 
+  478  git stash -u
+  479  git checkout Section9
+  480  git reflog stash --grep-reflog=s9feature
+  481  npp Section9/alpha.txt
+  482  git commit -am 'git - task11 - Full-Alpha'
+  483  git checkout s9feature
+  484  git stash apply
+  485  git add .
+  486  git commit -m 'git - task11 - applied stash changes'
+  487  git checkout Section9
+  488  git cherry-pick s9feature
+  489  git mergetool
+  490  git commit
+  491  npp Section9/answer.md
+  492  git add .
+  493  git commit -m 'git - task11 - Answer'
+  494  git rm Section9/alpha.txt.orig
+  495  git commit --amend
+  496  git checkout Tasks Topic9/Task11.md
+  497  git mv Topic9 Section9
+  498  git commit --amend
+  499  allhist -10
+  500  git push origin HEAD:refs/for/Section9
+  501  allhist -10
+  502  git checkout master
+  503  git fetch
+  504  git pull
+  505  allhist -10
+  506  git merge Section9 --no-ff
+  507  allhist -10
+  508  cd Section9
+  509  history >> history11.txt
